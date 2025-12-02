@@ -209,6 +209,26 @@
     return iconName ? `/assets/elements/${iconName}.svg` : '';
   }
 
+  function getRarityBackground(rarity: string): string {
+    const backgrounds: Record<string, string> = {
+      Unknown: '#f5f5f5',
+      Rare: '#e3f2fd',
+      Epic: '#f3e5f5',
+      Legendary: '#fff9c4'
+    };
+    return backgrounds[rarity] || '#f5f5f5';
+  }
+
+  function getRarityBorder(rarity: string): string {
+    const borders: Record<string, string> = {
+      Unknown: '#ddd',
+      Rare: '#42a5f5',
+      Epic: '#ab47bc',
+      Legendary: '#ffd54f'
+    };
+    return borders[rarity] || '#ddd';
+  }
+
   function copyShareLink() {
     const url = window.location.href;
     navigator.clipboard.writeText(url).then(() => {
@@ -236,6 +256,7 @@
           {#each tierLists[tier] as voidpet}
             <div
               class="voidpet-item"
+              style="background-color: {getRarityBackground(voidpet.rarity)}; border-color: {getRarityBorder(voidpet.rarity)};"
               draggable="true"
               on:dragstart={(e) => handleDragStart(e, voidpet, tier)}
               role="button"
@@ -270,6 +291,7 @@
         {#each tierLists.unranked as voidpet}
           <div
             class="voidpet-item"
+            style="background-color: {getRarityBackground(voidpet.rarity)}; border-color: {getRarityBorder(voidpet.rarity)};"
             draggable="true"
             on:dragstart={(e) => handleDragStart(e, voidpet, 'unranked')}
             role="button"
