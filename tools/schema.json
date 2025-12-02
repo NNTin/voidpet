@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9]{2}$",
+      "description": "The unique ID of the voidpet, consisting of exactly two digits."
+    },
+    "name": {
+      "type": "string",
+      "description": "The name of the voidpet."
+    },
+    "class": {
+      "type": "string",
+      "enum": ["Fighter", "Tank", "Healer"],
+      "description": "The class of the voidpet."
+    },
+    "element": {
+      "type": "string",
+      "enum": ["Wood", "Earth", "Water", "Fire", "Metal"],
+      "description": "The element of the voidpet."
+    },
+    "rarity": {
+      "type": "string",
+      "enum": ["Rare", "Epic", "Legendary"],
+      "description": "The rarity of the voidpet."
+    },
+    "description": {
+      "type": "string",
+      "description": "A description of the voidpet."
+    },
+    "levels": {
+      "type": "object",
+      "properties": {
+        "1": {
+          "type": "string",
+          "pattern": "^/assets/voidpets/[a-z0-9_-]+/[1-5]\\.svg$",
+          "description": "Path to the level 1 asset."
+        },
+        "2": {
+          "type": "string",
+          "pattern": "^/assets/voidpets/[a-z0-9_-]+/[1-5]\\.svg$",
+          "description": "Path to the level 2 asset."
+        },
+        "3": {
+          "type": "string",
+          "pattern": "^/assets/voidpets/[a-z0-9_-]+/[1-5]\\.svg$",
+          "description": "Path to the level 3 asset."
+        },
+        "4": {
+          "type": "string",
+          "pattern": "^/assets/voidpets/[a-z0-9_-]+/[1-5]\\.svg$",
+          "description": "Path to the level 4 asset."
+        },
+        "5": {
+          "type": "string",
+          "pattern": "^/assets/voidpets/[a-z0-9_-]+/[1-5]\\.svg$",
+          "description": "Path to the level 5 asset."
+        }
+      },
+      "required": ["1", "2", "3", "4", "5"],
+      "additionalProperties": false,
+      "description": "The asset paths for each level of the voidpet."
+    }
+  },
+  "required": ["id", "name", "class", "element", "rarity", "description", "levels"],
+  "additionalProperties": false,
+  "description": "Schema for the voidpet meta information."
+}

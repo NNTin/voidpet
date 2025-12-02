@@ -1,62 +1,53 @@
 import json
 import os
 import sys
-import re
+from jsonschema import validate, ValidationError
 
+# Paths
 VOIDPETS_DIR = os.path.join("static", "data", "voidpets")
+SCHEMA_FILE = os.path.join("tools", "schema.json")  # Adjust if schema.json is elsewhere
 
-REQUIRED_FIELDS = ["id", "name", "class", "element", "rarity", "description", "levels"]
-ALLOWED_CLASSES = ["Fighter", "Tank", "Healer"]
-ALLOWED_ELEMENTS = ["Wood", "Earth", "Water", "Fire", "Metal"]
-ALLOWED_RARITIES = ["Rare", "Epic", "Legendary"]
-LEVEL_KEYS = ["1", "2", "3", "4", "5"]
+# Load schema
+with open(SCHEMA_FILE, "r", encoding="utf-8") as f:
+    schema = json.load(f)
 
-# Regex to match valid asset paths like /assets/voidpets/anxious/1.svg
-ASSET_PATH_REGEX = re.compile(r"^/assets/voidpets/[a-z0-9_-]+/[1-5]\.svg$")
 
-def validate_meta(meta, dir_name):
+def validate_file_exists(level_path):
+    """Check if the SVG asset exists on disk."""
+    file_path = os.path.join("static", level_path.lstrip("/").replace("/", os.sep))
+    if not os.path.exists(file_path):
+        return False, file_path
+    return True, file_path
+
+
+def validate_meta_file(meta_file, dir_name):
+    """Validate a single meta.json file against schema and assets."""
+    try:
+        with open(meta_file, "r", encoding="utf-8") as f:
+            meta = json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"{dir_name}: Invalid JSON ({e})")
+        return False
+
     valid = True
 
-    # Required fields
-    for field in REQUIRED_FIELDS:
-        if field not in meta:
-            print(f"{dir_name}: Missing required field '{field}'")
-            valid = False
-
-    # Choices
-    if "class" in meta and meta["class"] not in ALLOWED_CLASSES:
-        print(f"{dir_name}: Invalid class '{meta['class']}'")
+    # JSON Schema validation
+    try:
+        validate(instance=meta, schema=schema)
+    except ValidationError as e:
+        print(f"{dir_name}: Schema validation error: {e.message}")
         valid = False
 
-    if "element" in meta and meta["element"] not in ALLOWED_ELEMENTS:
-        print(f"{dir_name}: Invalid element '{meta['element']}'")
-        valid = False
-
-    if "rarity" in meta and meta["rarity"] not in ALLOWED_RARITIES:
-        print(f"{dir_name}: Invalid rarity '{meta['rarity']}'")
-        valid = False
-
-    # Levels
+    # Check if level asset files exist
     if "levels" in meta:
-        for key in LEVEL_KEYS:
-            if key not in meta["levels"]:
-                print(f"{dir_name}: Missing level '{key}'")
-                valid = False
-                continue
-
-            path = meta["levels"][key]
-            # Check path format
-            if not ASSET_PATH_REGEX.match(path):
-                print(f"{dir_name}: Invalid asset path '{path}' (should be /assets/voidpets/<name-lowercase>/N.svg)")
-                valid = False
-
-            # check if file exists
-            file_path = os.path.join("static", path.lstrip("/").replace("/", os.sep))
-            if not os.path.exists(file_path):
-                print(f"{dir_name}: Asset file does not exist '{file_path}'")
+        for key, path in meta["levels"].items():
+            exists, file_path = validate_file_exists(path)
+            if not exists:
+                print(f"{dir_name}: Asset file does not exist: '{file_path}'")
                 valid = False
 
     return valid
+
 
 def validate_all():
     all_valid = True
@@ -71,16 +62,8 @@ def validate_all():
             all_valid = False
             continue
 
-        with open(meta_file, "r", encoding="utf-8") as f:
-            try:
-                meta = json.load(f)
-            except json.JSONDecodeError as e:
-                print(f"{dir_name}: Invalid JSON ({e})")
-                all_valid = False
-                continue
-
-            if not validate_meta(meta, dir_name):
-                all_valid = False
+        if not validate_meta_file(meta_file, dir_name):
+            all_valid = False
 
     if all_valid:
         print("All voidpets passed validation ✅")
@@ -88,6 +71,7 @@ def validate_all():
     else:
         print("Validation failed ❌")
         sys.exit(1)
+
 
 if __name__ == "__main__":
     validate_all()
