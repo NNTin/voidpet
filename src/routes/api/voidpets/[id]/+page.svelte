@@ -2,8 +2,10 @@
   import { onMount } from 'svelte';
   import { getVoidpetById } from '$lib/data/loadVoidpets';
   import { page } from '$app/stores';
+  import VoidpetCard from '$lib/components/voidpets/VoidpetCard.svelte';
 
   let voidpet = null;
+  let level = 3;
   let loading = true;
 
   // Get the voidpet ID from the route parameters
@@ -16,26 +18,46 @@
       loading = false;
     }
   });
+
+  function decreaseLevel() {
+    if (level > 1) {
+      level--;
+    }
+  }
+
+  function increaseLevel() {
+    if (level < 5) {
+      level++;
+    }
+  }
 </script>
 
 {#if loading}
-  <p>Loading...</p>
+  <main>
+    <p>Loading...</p>
+  </main>
 {:else if voidpet}
   <main>
-    <h1>{voidpet.name}</h1>
-    <p>{voidpet.description}</p>
-    <div>
-      {#each Object.entries(voidpet.levels) as [level, svgPath]}
-        <img src={svgPath} alt="{voidpet.name} Level {level}" />
-      {/each}
-    </div>
+    <VoidpetCard
+      {voidpet}
+      {level}
+      showLevelControls={true}
+      onDecreaseLevel={decreaseLevel}
+      onIncreaseLevel={increaseLevel}
+    />
   </main>
 {:else}
-  <p>Voidpet not found</p>
+  <main>
+    <p>Voidpet not found</p>
+  </main>
 {/if}
 
 <style>
   main {
     padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
   }
 </style>
