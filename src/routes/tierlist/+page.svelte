@@ -187,6 +187,34 @@
     };
     return colors[tier] || '#999999';
   }
+
+  function getClassEmoji(voidpetClass: string): string {
+    const emojis: Record<string, string> = {
+      Fighter: '⚔️',
+      Tank: '🛡️',
+      Healer: '💚'
+    };
+    return emojis[voidpetClass] || '❓';
+  }
+
+  function getElementIcon(element: string): string {
+    const elementMap: Record<string, string> = {
+      Wood: 'wood',
+      Earth: 'earth',
+      Water: 'water',
+      Fire: 'fire',
+      Metal: 'metal'
+    };
+    const iconName = elementMap[element];
+    return iconName ? `/assets/elements/${iconName}.svg` : '';
+  }
+
+  function copyShareLink() {
+    const url = window.location.href;
+    navigator.clipboard.writeText(url).then(() => {
+      alert('Share link copied to clipboard!');
+    });
+  }
 </script>
 
 <main>
@@ -214,7 +242,13 @@
               tabindex="0"
               aria-label="Drag {voidpet.name}"
             >
-              <img src={voidpet.levels[3]} alt={voidpet.name} />
+              {#if getElementIcon(voidpet.element)}
+                <img src={getElementIcon(voidpet.element)} alt={voidpet.element} class="element-icon" />
+              {:else}
+                <span class="element-icon unknown">❓</span>
+              {/if}
+              <span class="class-emoji">{getClassEmoji(voidpet.class)}</span>
+              <img src={voidpet.levels[3]} alt={voidpet.name} class="voidpet-image" />
               <span class="voidpet-name">{voidpet.name}</span>
             </div>
           {/each}
@@ -242,7 +276,13 @@
             tabindex="0"
             aria-label="Drag {voidpet.name}"
           >
-            <img src={voidpet.levels[3]} alt={voidpet.name} />
+            {#if getElementIcon(voidpet.element)}
+              <img src={getElementIcon(voidpet.element)} alt={voidpet.element} class="element-icon" />
+            {:else}
+              <span class="element-icon unknown">❓</span>
+            {/if}
+            <span class="class-emoji">{getClassEmoji(voidpet.class)}</span>
+            <img src={voidpet.levels[3]} alt={voidpet.name} class="voidpet-image" />
             <span class="voidpet-name">{voidpet.name}</span>
           </div>
         {/each}
@@ -355,6 +395,29 @@
     position: relative;
   }
 
+  .element-icon {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 16px;
+    height: 16px;
+    z-index: 1;
+  }
+
+  .element-icon.unknown {
+    font-size: 12px;
+    width: auto;
+    height: auto;
+  }
+
+  .class-emoji {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 14px;
+    z-index: 1;
+  }
+
   .voidpet-item:hover {
     transform: scale(1.05);
     border-color: #999;
@@ -366,7 +429,7 @@
     opacity: 0.7;
   }
 
-  .voidpet-item img {
+  .voidpet-image {
     width: 60px;
     height: 60px;
     object-fit: contain;
