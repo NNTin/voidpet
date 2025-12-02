@@ -8,16 +8,16 @@ Proof of Concept Checklist
     - [x] There are 50 void pets in total
     - [x] Classes are: Fighter, Tank, Healer
     - [x] Elements are: Wood, Earth, Water, Fire, Metal
-- [ ] web frontend: 
-  - [ ] include SVG for the classes (fighter, tank, healer)
-  - [ ] include SVG for the elements
-  - [ ] make a custom looking card with name, image, class and element
+- [x] web frontend: 
+  - [x] include SVG for the classes (fighter, tank, healer)
+  - [x] include SVG for the elements
+  - [x] make a custom looking card with name, image, class and element
   - [ ] optional filtering is done clientside (-> dynamic endpoints possible!)
   - [ ] filter by class (fighter, tank, support, ..) or type (wood, fire, ..)
 
 
-
-  voidpet-spa/
+```
+voidpet-spa/
 ├── src/
 │   ├── lib/
 │   │   ├── components/
@@ -65,3 +65,4 @@ Proof of Concept Checklist
 ├── package.json
 ├── svelte.config.js
 └── README.md
+```
