@@ -51,10 +51,10 @@ def validate_meta(meta, dir_name):
                 valid = False
 
             # check if file exists
-            # file_path = path.lstrip("/").replace("/", os.sep)
-            # if not os.path.exists(file_path):
-            #     print(f"{dir_name}: Asset file does not exist '{file_path}'")
-            #     valid = False
+            file_path = os.path.join("static", path.lstrip("/").replace("/", os.sep))
+            if not os.path.exists(file_path):
+                print(f"{dir_name}: Asset file does not exist '{file_path}'")
+                valid = False
 
     return valid
 
