@@ -17,7 +17,8 @@
     A: [],
     B: [],
     C: [],
-    unranked: []
+    unranked: [],
+    notUnlocked: []
   };
 
   // Base62 encoding/decoding
@@ -113,6 +114,16 @@
         }
       });
 
+      // Handle notUnlocked tier from URL
+      if (tierMap['notUnlocked']) {
+        tierLists.notUnlocked = tierMap['notUnlocked']
+          .map(id => voidpets.find(v => v.id === id))
+          .filter(v => v !== undefined) as Voidpet[];
+        tierMap['notUnlocked'].forEach(id => allTieredIds.add(id));
+      } else {
+        tierLists.notUnlocked = [];
+      }
+
       // Put any voidpets not in the URL into unranked
       tierLists.unranked = voidpets.filter(v => !allTieredIds.has(v.id));
     } catch (e) {
@@ -122,9 +133,9 @@
   }
 
   function updateUrl() {
-    // Encode tier structure: SS:id1,id2|S:id3,id4|A:id5|B:|C:
-    // Only encode ranked tiers (ignore unranked)
-    const parts = tiers.map(tier => {
+    // Encode tier structure: SS:id1,id2|S:id3,id4|A:id5|B:|C:|notUnlocked:id6,id7
+    // Include notUnlocked in encoding (ignore unranked)
+    const parts = [...tiers, 'notUnlocked'].map(tier => {
       const ids = tierLists[tier].map(v => v.id).join(',');
       return `${tier}:${ids}`;
     });
@@ -183,7 +194,8 @@
       A: '#ffdd44',
       B: '#88dd44',
       C: '#4488dd',
-      unranked: '#999999'
+      unranked: '#999999',
+      notUnlocked: '#666666'
     };
     return colors[tier] || '#999999';
   }
@@ -310,6 +322,40 @@
         {/each}
       </div>
     </div>
+
+    <div class="tier-row not-unlocked">
+      <div class="tier-label" style="background-color: {getTierColor('notUnlocked')}">
+        Not Unlocked
+      </div>
+      <div
+        class="tier-content"
+        on:dragover={handleDragOver}
+        on:drop={(e) => handleDrop(e, 'notUnlocked')}
+        role="region"
+        aria-label="Not unlocked voidpets"
+      >
+        {#each tierLists.notUnlocked as voidpet}
+          <div
+            class="voidpet-item"
+            style="background-color: {getRarityBackground(voidpet.rarity)}; border-color: {getRarityBorder(voidpet.rarity)};"
+            draggable="true"
+            on:dragstart={(e) => handleDragStart(e, voidpet, 'notUnlocked')}
+            role="button"
+            tabindex="0"
+            aria-label="Drag {voidpet.name}"
+          >
+            {#if getElementIcon(voidpet.element)}
+              <img src={getElementIcon(voidpet.element)} alt={voidpet.element} class="element-icon" />
+            {:else}
+              <span class="element-icon unknown">❓</span>
+            {/if}
+            <span class="class-emoji">{getClassEmoji(voidpet.class)}</span>
+            <img src={voidpet.levels[3]} alt={voidpet.name} class="voidpet-image" />
+            <span class="voidpet-name">{voidpet.name}</span>
+          </div>
+        {/each}
+      </div>
+    </div>
   </div>
 </main>
 
@@ -368,6 +414,11 @@
 
   .tier-row.unranked {
     margin-top: 2rem;
+    min-height: 150px;
+  }
+
+  .tier-row.not-unlocked {
+    margin-top: 0.5rem;
     min-height: 150px;
   }
 
