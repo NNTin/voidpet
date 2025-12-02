@@ -52,6 +52,9 @@ for idx, card in enumerate(container.find_all("div", class_="w-full flex px-0 p-
 
     for svg in svgs:
         # Skip empty SVGs
+        # todo: there are 10 SVGs in total but half of them are empty
+        # for now we have only exported the "inactive" ones
+        # the goal is to have "active/inactive" in a single SVG with CSS classes
         if not svg.find():  # No child elements
             continue
 
