@@ -1,5 +1,5 @@
 export async function getAllVoidpets() {
-  const response = await fetch('/data/voidpets.json');  // Path is relative to the static folder
+  const response = await fetch('/data/voidpets.json');
   if (!response.ok) {
     throw new Error('Failed to fetch voidpets');
   }
@@ -7,6 +7,6 @@ export async function getAllVoidpets() {
 }
 
 export async function getVoidpetById(id: string) {
-  const voidpets = await getAllVoidpets();  // Fetching again, could be optimized if necessary
+  const voidpets = await getAllVoidpets();
   return voidpets.find((v) => v.id === id);
 }
