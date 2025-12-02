@@ -1,5 +1,7 @@
+import { base } from '$app/paths';
+
 export async function getAllVoidpets() {
-  const response = await fetch('/data/voidpets.json');
+  const response = await fetch(`${base}/data/voidpets.json`);
   if (!response.ok) {
     throw new Error('Failed to fetch voidpets');
   }
