@@ -202,11 +202,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/13/level-1.svg",
-      "2": "/assets/voidpets/13/level-2.svg",
-      "3": "/assets/voidpets/13/level-3.svg",
-      "4": "/assets/voidpets/13/level-4.svg",
-      "5": "/assets/voidpets/13/level-5.svg"
+      "1": "/assets/voidpets/pride/1.svg",
+      "2": "/assets/voidpets/pride/2.svg",
+      "3": "/assets/voidpets/pride/3.svg",
+      "4": "/assets/voidpets/pride/4.svg",
+      "5": "/assets/voidpets/pride/5.svg"
     }
   },
   {
@@ -217,11 +217,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/14/level-1.svg",
-      "2": "/assets/voidpets/14/level-2.svg",
-      "3": "/assets/voidpets/14/level-3.svg",
-      "4": "/assets/voidpets/14/level-4.svg",
-      "5": "/assets/voidpets/14/level-5.svg"
+      "1": "/assets/voidpets/lust/1.svg",
+      "2": "/assets/voidpets/lust/2.svg",
+      "3": "/assets/voidpets/lust/3.svg",
+      "4": "/assets/voidpets/lust/4.svg",
+      "5": "/assets/voidpets/lust/5.svg"
     }
   },
   {
@@ -232,11 +232,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/15/level-1.svg",
-      "2": "/assets/voidpets/15/level-2.svg",
-      "3": "/assets/voidpets/15/level-3.svg",
-      "4": "/assets/voidpets/15/level-4.svg",
-      "5": "/assets/voidpets/15/level-5.svg"
+      "1": "/assets/voidpets/sloth/1.svg",
+      "2": "/assets/voidpets/sloth/2.svg",
+      "3": "/assets/voidpets/sloth/3.svg",
+      "4": "/assets/voidpets/sloth/4.svg",
+      "5": "/assets/voidpets/sloth/5.svg"
     }
   },
   {
@@ -247,11 +247,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/16/level-1.svg",
-      "2": "/assets/voidpets/16/level-2.svg",
-      "3": "/assets/voidpets/16/level-3.svg",
-      "4": "/assets/voidpets/16/level-4.svg",
-      "5": "/assets/voidpets/16/level-5.svg"
+      "1": "/assets/voidpets/wrath/1.svg",
+      "2": "/assets/voidpets/wrath/2.svg",
+      "3": "/assets/voidpets/wrath/3.svg",
+      "4": "/assets/voidpets/wrath/4.svg",
+      "5": "/assets/voidpets/wrath/5.svg"
     }
   },
   {
@@ -262,11 +262,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/17/level-1.svg",
-      "2": "/assets/voidpets/17/level-2.svg",
-      "3": "/assets/voidpets/17/level-3.svg",
-      "4": "/assets/voidpets/17/level-4.svg",
-      "5": "/assets/voidpets/17/level-5.svg"
+      "1": "/assets/voidpets/greed/1.svg",
+      "2": "/assets/voidpets/greed/2.svg",
+      "3": "/assets/voidpets/greed/3.svg",
+      "4": "/assets/voidpets/greed/4.svg",
+      "5": "/assets/voidpets/greed/5.svg"
     }
   },
   {
@@ -277,11 +277,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/18/level-1.svg",
-      "2": "/assets/voidpets/18/level-2.svg",
-      "3": "/assets/voidpets/18/level-3.svg",
-      "4": "/assets/voidpets/18/level-4.svg",
-      "5": "/assets/voidpets/18/level-5.svg"
+      "1": "/assets/voidpets/estrangement/1.svg",
+      "2": "/assets/voidpets/estrangement/2.svg",
+      "3": "/assets/voidpets/estrangement/3.svg",
+      "4": "/assets/voidpets/estrangement/4.svg",
+      "5": "/assets/voidpets/estrangement/5.svg"
     }
   },
   {
@@ -292,11 +292,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/19/level-1.svg",
-      "2": "/assets/voidpets/19/level-2.svg",
-      "3": "/assets/voidpets/19/level-3.svg",
-      "4": "/assets/voidpets/19/level-4.svg",
-      "5": "/assets/voidpets/19/level-5.svg"
+      "1": "/assets/voidpets/nostalgia/1.svg",
+      "2": "/assets/voidpets/nostalgia/2.svg",
+      "3": "/assets/voidpets/nostalgia/3.svg",
+      "4": "/assets/voidpets/nostalgia/4.svg",
+      "5": "/assets/voidpets/nostalgia/5.svg"
     }
   },
   {
@@ -307,11 +307,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/20/level-1.svg",
-      "2": "/assets/voidpets/20/level-2.svg",
-      "3": "/assets/voidpets/20/level-3.svg",
-      "4": "/assets/voidpets/20/level-4.svg",
-      "5": "/assets/voidpets/20/level-5.svg"
+      "1": "/assets/voidpets/judgement/1.svg",
+      "2": "/assets/voidpets/judgement/2.svg",
+      "3": "/assets/voidpets/judgement/3.svg",
+      "4": "/assets/voidpets/judgement/4.svg",
+      "5": "/assets/voidpets/judgement/5.svg"
     }
   },
   {
@@ -322,11 +322,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/21/level-1.svg",
-      "2": "/assets/voidpets/21/level-2.svg",
-      "3": "/assets/voidpets/21/level-3.svg",
-      "4": "/assets/voidpets/21/level-4.svg",
-      "5": "/assets/voidpets/21/level-5.svg"
+      "1": "/assets/voidpets/salty/1.svg",
+      "2": "/assets/voidpets/salty/2.svg",
+      "3": "/assets/voidpets/salty/3.svg",
+      "4": "/assets/voidpets/salty/4.svg",
+      "5": "/assets/voidpets/salty/5.svg"
     }
   },
   {
@@ -337,11 +337,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/22/level-1.svg",
-      "2": "/assets/voidpets/22/level-2.svg",
-      "3": "/assets/voidpets/22/level-3.svg",
-      "4": "/assets/voidpets/22/level-4.svg",
-      "5": "/assets/voidpets/22/level-5.svg"
+      "1": "/assets/voidpets/sadge/1.svg",
+      "2": "/assets/voidpets/sadge/2.svg",
+      "3": "/assets/voidpets/sadge/3.svg",
+      "4": "/assets/voidpets/sadge/4.svg",
+      "5": "/assets/voidpets/sadge/5.svg"
     }
   },
   {
@@ -352,11 +352,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/23/level-1.svg",
-      "2": "/assets/voidpets/23/level-2.svg",
-      "3": "/assets/voidpets/23/level-3.svg",
-      "4": "/assets/voidpets/23/level-4.svg",
-      "5": "/assets/voidpets/23/level-5.svg"
+      "1": "/assets/voidpets/down-bad/1.svg",
+      "2": "/assets/voidpets/down-bad/2.svg",
+      "3": "/assets/voidpets/down-bad/3.svg",
+      "4": "/assets/voidpets/down-bad/4.svg",
+      "5": "/assets/voidpets/down-bad/5.svg"
     }
   },
   {
@@ -367,11 +367,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/24/level-1.svg",
-      "2": "/assets/voidpets/24/level-2.svg",
-      "3": "/assets/voidpets/24/level-3.svg",
-      "4": "/assets/voidpets/24/level-4.svg",
-      "5": "/assets/voidpets/24/level-5.svg"
+      "1": "/assets/voidpets/cringe/1.svg",
+      "2": "/assets/voidpets/cringe/2.svg",
+      "3": "/assets/voidpets/cringe/3.svg",
+      "4": "/assets/voidpets/cringe/4.svg",
+      "5": "/assets/voidpets/cringe/5.svg"
     }
   },
   {
@@ -382,11 +382,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/25/level-1.svg",
-      "2": "/assets/voidpets/25/level-2.svg",
-      "3": "/assets/voidpets/25/level-3.svg",
-      "4": "/assets/voidpets/25/level-4.svg",
-      "5": "/assets/voidpets/25/level-5.svg"
+      "1": "/assets/voidpets/grumpy/1.svg",
+      "2": "/assets/voidpets/grumpy/2.svg",
+      "3": "/assets/voidpets/grumpy/3.svg",
+      "4": "/assets/voidpets/grumpy/4.svg",
+      "5": "/assets/voidpets/grumpy/5.svg"
     }
   },
   {
@@ -397,11 +397,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/26/level-1.svg",
-      "2": "/assets/voidpets/26/level-2.svg",
-      "3": "/assets/voidpets/26/level-3.svg",
-      "4": "/assets/voidpets/26/level-4.svg",
-      "5": "/assets/voidpets/26/level-5.svg"
+      "1": "/assets/voidpets/curious/1.svg",
+      "2": "/assets/voidpets/curious/2.svg",
+      "3": "/assets/voidpets/curious/3.svg",
+      "4": "/assets/voidpets/curious/4.svg",
+      "5": "/assets/voidpets/curious/5.svg"
     }
   },
   {
@@ -412,11 +412,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/27/level-1.svg",
-      "2": "/assets/voidpets/27/level-2.svg",
-      "3": "/assets/voidpets/27/level-3.svg",
-      "4": "/assets/voidpets/27/level-4.svg",
-      "5": "/assets/voidpets/27/level-5.svg"
+      "1": "/assets/voidpets/glee/1.svg",
+      "2": "/assets/voidpets/glee/2.svg",
+      "3": "/assets/voidpets/glee/3.svg",
+      "4": "/assets/voidpets/glee/4.svg",
+      "5": "/assets/voidpets/glee/5.svg"
     }
   },
   {
@@ -427,11 +427,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/28/level-1.svg",
-      "2": "/assets/voidpets/28/level-2.svg",
-      "3": "/assets/voidpets/28/level-3.svg",
-      "4": "/assets/voidpets/28/level-4.svg",
-      "5": "/assets/voidpets/28/level-5.svg"
+      "1": "/assets/voidpets/rejection/1.svg",
+      "2": "/assets/voidpets/rejection/2.svg",
+      "3": "/assets/voidpets/rejection/3.svg",
+      "4": "/assets/voidpets/rejection/4.svg",
+      "5": "/assets/voidpets/rejection/5.svg"
     }
   },
   {
@@ -442,11 +442,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/29/level-1.svg",
-      "2": "/assets/voidpets/29/level-2.svg",
-      "3": "/assets/voidpets/29/level-3.svg",
-      "4": "/assets/voidpets/29/level-4.svg",
-      "5": "/assets/voidpets/29/level-5.svg"
+      "1": "/assets/voidpets/desperate/1.svg",
+      "2": "/assets/voidpets/desperate/2.svg",
+      "3": "/assets/voidpets/desperate/3.svg",
+      "4": "/assets/voidpets/desperate/4.svg",
+      "5": "/assets/voidpets/desperate/5.svg"
     }
   },
   {
@@ -457,11 +457,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/30/level-1.svg",
-      "2": "/assets/voidpets/30/level-2.svg",
-      "3": "/assets/voidpets/30/level-3.svg",
-      "4": "/assets/voidpets/30/level-4.svg",
-      "5": "/assets/voidpets/30/level-5.svg"
+      "1": "/assets/voidpets/defiance/1.svg",
+      "2": "/assets/voidpets/defiance/2.svg",
+      "3": "/assets/voidpets/defiance/3.svg",
+      "4": "/assets/voidpets/defiance/4.svg",
+      "5": "/assets/voidpets/defiance/5.svg"
     }
   },
   {
@@ -472,11 +472,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/31/level-1.svg",
-      "2": "/assets/voidpets/31/level-2.svg",
-      "3": "/assets/voidpets/31/level-3.svg",
-      "4": "/assets/voidpets/31/level-4.svg",
-      "5": "/assets/voidpets/31/level-5.svg"
+      "1": "/assets/voidpets/merry/1.svg",
+      "2": "/assets/voidpets/merry/2.svg",
+      "3": "/assets/voidpets/merry/3.svg",
+      "4": "/assets/voidpets/merry/4.svg",
+      "5": "/assets/voidpets/merry/5.svg"
     }
   },
   {
@@ -487,11 +487,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/32/level-1.svg",
-      "2": "/assets/voidpets/32/level-2.svg",
-      "3": "/assets/voidpets/32/level-3.svg",
-      "4": "/assets/voidpets/32/level-4.svg",
-      "5": "/assets/voidpets/32/level-5.svg"
+      "1": "/assets/voidpets/apathy/1.svg",
+      "2": "/assets/voidpets/apathy/2.svg",
+      "3": "/assets/voidpets/apathy/3.svg",
+      "4": "/assets/voidpets/apathy/4.svg",
+      "5": "/assets/voidpets/apathy/5.svg"
     }
   },
   {
@@ -502,11 +502,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/33/level-1.svg",
-      "2": "/assets/voidpets/33/level-2.svg",
-      "3": "/assets/voidpets/33/level-3.svg",
-      "4": "/assets/voidpets/33/level-4.svg",
-      "5": "/assets/voidpets/33/level-5.svg"
+      "1": "/assets/voidpets/disdain/1.svg",
+      "2": "/assets/voidpets/disdain/2.svg",
+      "3": "/assets/voidpets/disdain/3.svg",
+      "4": "/assets/voidpets/disdain/4.svg",
+      "5": "/assets/voidpets/disdain/5.svg"
     }
   },
   {
@@ -517,11 +517,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/34/level-1.svg",
-      "2": "/assets/voidpets/34/level-2.svg",
-      "3": "/assets/voidpets/34/level-3.svg",
-      "4": "/assets/voidpets/34/level-4.svg",
-      "5": "/assets/voidpets/34/level-5.svg"
+      "1": "/assets/voidpets/panic/1.svg",
+      "2": "/assets/voidpets/panic/2.svg",
+      "3": "/assets/voidpets/panic/3.svg",
+      "4": "/assets/voidpets/panic/4.svg",
+      "5": "/assets/voidpets/panic/5.svg"
     }
   },
   {
@@ -532,11 +532,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/35/level-1.svg",
-      "2": "/assets/voidpets/35/level-2.svg",
-      "3": "/assets/voidpets/35/level-3.svg",
-      "4": "/assets/voidpets/35/level-4.svg",
-      "5": "/assets/voidpets/35/level-5.svg"
+      "1": "/assets/voidpets/resistance/1.svg",
+      "2": "/assets/voidpets/resistance/2.svg",
+      "3": "/assets/voidpets/resistance/3.svg",
+      "4": "/assets/voidpets/resistance/4.svg",
+      "5": "/assets/voidpets/resistance/5.svg"
     }
   },
   {
@@ -547,11 +547,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/36/level-1.svg",
-      "2": "/assets/voidpets/36/level-2.svg",
-      "3": "/assets/voidpets/36/level-3.svg",
-      "4": "/assets/voidpets/36/level-4.svg",
-      "5": "/assets/voidpets/36/level-5.svg"
+      "1": "/assets/voidpets/determination/1.svg",
+      "2": "/assets/voidpets/determination/2.svg",
+      "3": "/assets/voidpets/determination/3.svg",
+      "4": "/assets/voidpets/determination/4.svg",
+      "5": "/assets/voidpets/determination/5.svg"
     }
   },
   {
@@ -562,11 +562,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/37/level-1.svg",
-      "2": "/assets/voidpets/37/level-2.svg",
-      "3": "/assets/voidpets/37/level-3.svg",
-      "4": "/assets/voidpets/37/level-4.svg",
-      "5": "/assets/voidpets/37/level-5.svg"
+      "1": "/assets/voidpets/wonder/1.svg",
+      "2": "/assets/voidpets/wonder/2.svg",
+      "3": "/assets/voidpets/wonder/3.svg",
+      "4": "/assets/voidpets/wonder/4.svg",
+      "5": "/assets/voidpets/wonder/5.svg"
     }
   },
   {
@@ -577,11 +577,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/38/level-1.svg",
-      "2": "/assets/voidpets/38/level-2.svg",
-      "3": "/assets/voidpets/38/level-3.svg",
-      "4": "/assets/voidpets/38/level-4.svg",
-      "5": "/assets/voidpets/38/level-5.svg"
+      "1": "/assets/voidpets/mischief/1.svg",
+      "2": "/assets/voidpets/mischief/2.svg",
+      "3": "/assets/voidpets/mischief/3.svg",
+      "4": "/assets/voidpets/mischief/4.svg",
+      "5": "/assets/voidpets/mischief/5.svg"
     }
   },
   {
@@ -592,11 +592,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/39/level-1.svg",
-      "2": "/assets/voidpets/39/level-2.svg",
-      "3": "/assets/voidpets/39/level-3.svg",
-      "4": "/assets/voidpets/39/level-4.svg",
-      "5": "/assets/voidpets/39/level-5.svg"
+      "1": "/assets/voidpets/persistence/1.svg",
+      "2": "/assets/voidpets/persistence/2.svg",
+      "3": "/assets/voidpets/persistence/3.svg",
+      "4": "/assets/voidpets/persistence/4.svg",
+      "5": "/assets/voidpets/persistence/5.svg"
     }
   },
   {
@@ -607,11 +607,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/40/level-1.svg",
-      "2": "/assets/voidpets/40/level-2.svg",
-      "3": "/assets/voidpets/40/level-3.svg",
-      "4": "/assets/voidpets/40/level-4.svg",
-      "5": "/assets/voidpets/40/level-5.svg"
+      "1": "/assets/voidpets/ambition/1.svg",
+      "2": "/assets/voidpets/ambition/2.svg",
+      "3": "/assets/voidpets/ambition/3.svg",
+      "4": "/assets/voidpets/ambition/4.svg",
+      "5": "/assets/voidpets/ambition/5.svg"
     }
   },
   {
@@ -622,11 +622,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/41/level-1.svg",
-      "2": "/assets/voidpets/41/level-2.svg",
-      "3": "/assets/voidpets/41/level-3.svg",
-      "4": "/assets/voidpets/41/level-4.svg",
-      "5": "/assets/voidpets/41/level-5.svg"
+      "1": "/assets/voidpets/conviction/1.svg",
+      "2": "/assets/voidpets/conviction/2.svg",
+      "3": "/assets/voidpets/conviction/3.svg",
+      "4": "/assets/voidpets/conviction/4.svg",
+      "5": "/assets/voidpets/conviction/5.svg"
     }
   },
   {
@@ -637,11 +637,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/42/level-1.svg",
-      "2": "/assets/voidpets/42/level-2.svg",
-      "3": "/assets/voidpets/42/level-3.svg",
-      "4": "/assets/voidpets/42/level-4.svg",
-      "5": "/assets/voidpets/42/level-5.svg"
+      "1": "/assets/voidpets/joy/1.svg",
+      "2": "/assets/voidpets/joy/2.svg",
+      "3": "/assets/voidpets/joy/3.svg",
+      "4": "/assets/voidpets/joy/4.svg",
+      "5": "/assets/voidpets/joy/5.svg"
     }
   },
   {
@@ -652,11 +652,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/43/level-1.svg",
-      "2": "/assets/voidpets/43/level-2.svg",
-      "3": "/assets/voidpets/43/level-3.svg",
-      "4": "/assets/voidpets/43/level-4.svg",
-      "5": "/assets/voidpets/43/level-5.svg"
+      "1": "/assets/voidpets/wistful/1.svg",
+      "2": "/assets/voidpets/wistful/2.svg",
+      "3": "/assets/voidpets/wistful/3.svg",
+      "4": "/assets/voidpets/wistful/4.svg",
+      "5": "/assets/voidpets/wistful/5.svg"
     }
   },
   {
@@ -667,11 +667,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/44/level-1.svg",
-      "2": "/assets/voidpets/44/level-2.svg",
-      "3": "/assets/voidpets/44/level-3.svg",
-      "4": "/assets/voidpets/44/level-4.svg",
-      "5": "/assets/voidpets/44/level-5.svg"
+      "1": "/assets/voidpets/scorn/1.svg",
+      "2": "/assets/voidpets/scorn/2.svg",
+      "3": "/assets/voidpets/scorn/3.svg",
+      "4": "/assets/voidpets/scorn/4.svg",
+      "5": "/assets/voidpets/scorn/5.svg"
     }
   },
   {
@@ -682,11 +682,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/45/level-1.svg",
-      "2": "/assets/voidpets/45/level-2.svg",
-      "3": "/assets/voidpets/45/level-3.svg",
-      "4": "/assets/voidpets/45/level-4.svg",
-      "5": "/assets/voidpets/45/level-5.svg"
+      "1": "/assets/voidpets/diligence/1.svg",
+      "2": "/assets/voidpets/diligence/2.svg",
+      "3": "/assets/voidpets/diligence/3.svg",
+      "4": "/assets/voidpets/diligence/4.svg",
+      "5": "/assets/voidpets/diligence/5.svg"
     }
   },
   {
@@ -697,11 +697,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/46/level-1.svg",
-      "2": "/assets/voidpets/46/level-2.svg",
-      "3": "/assets/voidpets/46/level-3.svg",
-      "4": "/assets/voidpets/46/level-4.svg",
-      "5": "/assets/voidpets/46/level-5.svg"
+      "1": "/assets/voidpets/patience/1.svg",
+      "2": "/assets/voidpets/patience/2.svg",
+      "3": "/assets/voidpets/patience/3.svg",
+      "4": "/assets/voidpets/patience/4.svg",
+      "5": "/assets/voidpets/patience/5.svg"
     }
   },
   {
@@ -712,11 +712,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/47/level-1.svg",
-      "2": "/assets/voidpets/47/level-2.svg",
-      "3": "/assets/voidpets/47/level-3.svg",
-      "4": "/assets/voidpets/47/level-4.svg",
-      "5": "/assets/voidpets/47/level-5.svg"
+      "1": "/assets/voidpets/clarity/1.svg",
+      "2": "/assets/voidpets/clarity/2.svg",
+      "3": "/assets/voidpets/clarity/3.svg",
+      "4": "/assets/voidpets/clarity/4.svg",
+      "5": "/assets/voidpets/clarity/5.svg"
     }
   },
   {
@@ -727,11 +727,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/48/level-1.svg",
-      "2": "/assets/voidpets/48/level-2.svg",
-      "3": "/assets/voidpets/48/level-3.svg",
-      "4": "/assets/voidpets/48/level-4.svg",
-      "5": "/assets/voidpets/48/level-5.svg"
+      "1": "/assets/voidpets/petulance/1.svg",
+      "2": "/assets/voidpets/petulance/2.svg",
+      "3": "/assets/voidpets/petulance/3.svg",
+      "4": "/assets/voidpets/petulance/4.svg",
+      "5": "/assets/voidpets/petulance/5.svg"
     }
   },
   {
@@ -742,11 +742,11 @@
     "rarity": "Unknown",
     "description": "Describe this voidpet...",
     "levels": {
-      "1": "/assets/voidpets/49/level-1.svg",
-      "2": "/assets/voidpets/49/level-2.svg",
-      "3": "/assets/voidpets/49/level-3.svg",
-      "4": "/assets/voidpets/49/level-4.svg",
-      "5": "/assets/voidpets/49/level-5.svg"
+      "1": "/assets/voidpets/devotion/1.svg",
+      "2": "/assets/voidpets/devotion/2.svg",
+      "3": "/assets/voidpets/devotion/3.svg",
+      "4": "/assets/voidpets/devotion/4.svg",
+      "5": "/assets/voidpets/devotion/5.svg"
     }
   }
 ]
