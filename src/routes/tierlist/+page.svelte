@@ -8,6 +8,7 @@
   let voidpets: Voidpet[] = [];
   let draggedVoidpet: Voidpet | null = null;
   let draggedFromTier: string | null = null;
+  let currentLevel: number = 5;
 
   // Tier list structure
   const tiers = ['SS', 'S', 'A', 'B', 'C'];
@@ -81,6 +82,15 @@
     
     // Load from URL if present
     const urlTierData = $page.url.searchParams.get('t');
+    const urlLevel = $page.url.searchParams.get('l');
+    
+    if (urlLevel) {
+      const level = parseInt(urlLevel, 10);
+      if (level >= 1 && level <= 5) {
+        currentLevel = level;
+      }
+    }
+    
     if (urlTierData) {
       loadFromUrl(urlTierData);
     } else {
@@ -145,9 +155,24 @@
     const encodedData = encodeBase62(tierString);
     const url = new URL(window.location.href);
     url.searchParams.set('t', encodedData);
+    url.searchParams.set('l', currentLevel.toString());
     
     // Update URL without reload
     goto(url.pathname + url.search, { replaceState: true, noScroll: true, keepFocus: true });
+  }
+
+  function decreaseLevel() {
+    if (currentLevel > 1) {
+      currentLevel--;
+      updateUrl();
+    }
+  }
+
+  function increaseLevel() {
+    if (currentLevel < 5) {
+      currentLevel++;
+      updateUrl();
+    }
   }
 
   function handleDragStart(event: DragEvent, voidpet: Voidpet, tier: string) {
@@ -281,7 +306,7 @@
                 <span class="element-icon unknown">❓</span>
               {/if}
               <span class="class-emoji">{getClassEmoji(voidpet.class)}</span>
-              <img src={voidpet.levels[3]} alt={voidpet.name} class="voidpet-image" />
+              <img src={voidpet.levels[currentLevel]} alt={voidpet.name} class="voidpet-image" />
               <span class="voidpet-name">{voidpet.name}</span>
             </div>
           {/each}
@@ -316,7 +341,7 @@
               <span class="element-icon unknown">❓</span>
             {/if}
             <span class="class-emoji">{getClassEmoji(voidpet.class)}</span>
-            <img src={voidpet.levels[3]} alt={voidpet.name} class="voidpet-image" />
+            <img src={voidpet.levels[currentLevel]} alt={voidpet.name} class="voidpet-image" />
             <span class="voidpet-name">{voidpet.name}</span>
           </div>
         {/each}
@@ -350,12 +375,18 @@
               <span class="element-icon unknown">❓</span>
             {/if}
             <span class="class-emoji">{getClassEmoji(voidpet.class)}</span>
-            <img src={voidpet.levels[3]} alt={voidpet.name} class="voidpet-image" />
+            <img src={voidpet.levels[currentLevel]} alt={voidpet.name} class="voidpet-image" />
             <span class="voidpet-name">{voidpet.name}</span>
           </div>
         {/each}
       </div>
     </div>
+  </div>
+
+  <div class="level-control">
+    <button on:click={decreaseLevel} disabled={currentLevel === 1}> − </button>
+    <span class="level-display">Level {currentLevel}</span>
+    <button on:click={increaseLevel} disabled={currentLevel === 5}> + </button>
   </div>
 </main>
 
@@ -516,6 +547,49 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+
+  .level-control {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.5rem;
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+  }
+
+  .level-control button {
+    padding: 0.5rem 0.75rem;
+    font-size: 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: all 0.2s;
+    min-width: 40px;
+  }
+
+  .level-control button:hover:not(:disabled) {
+    background-color: #e0e0e0;
+    border-color: #999;
+  }
+
+  .level-control button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .level-control .level-display {
+    font-weight: bold;
+    min-width: 80px;
+    text-align: center;
+    font-size: 1rem;
   }
 
   /* Drag over effect */
