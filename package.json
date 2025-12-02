@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite dev --host --port 3000",
-    "build": "vite build",
+    "build": "vite build && node -e \"const fs = require('fs'); const path = require('path'); fs.copyFileSync(path.join('build', 'index.html'), path.join('build', '404.html')); console.log('✔ Created 404.html');\"",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "lint": "eslint . --ext .ts,.js,.svelte"
