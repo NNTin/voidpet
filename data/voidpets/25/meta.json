@@ -1,0 +1,15 @@
+{
+  "id": "25",
+  "name": "Grumpy",
+  "class": "Fighter",
+  "element": "Earth",
+  "rarity": "Rare",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/grumpy/1.svg",
+    "2": "/assets/voidpets/grumpy/2.svg",
+    "3": "/assets/voidpets/grumpy/3.svg",
+    "4": "/assets/voidpets/grumpy/4.svg",
+    "5": "/assets/voidpets/grumpy/5.svg"
+  }
+}

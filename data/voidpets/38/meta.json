@@ -1,0 +1,15 @@
+{
+  "id": "38",
+  "name": "Mischief",
+  "class": "Unknown",
+  "element": "Wood",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/mischief/1.svg",
+    "2": "/assets/voidpets/mischief/2.svg",
+    "3": "/assets/voidpets/mischief/3.svg",
+    "4": "/assets/voidpets/mischief/4.svg",
+    "5": "/assets/voidpets/mischief/5.svg"
+  }
+}

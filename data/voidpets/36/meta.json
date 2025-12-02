@@ -1,0 +1,15 @@
+{
+  "id": "36",
+  "name": "Determination",
+  "class": "Tank",
+  "element": "Fire",
+  "rarity": "Epic",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/determination/1.svg",
+    "2": "/assets/voidpets/determination/2.svg",
+    "3": "/assets/voidpets/determination/3.svg",
+    "4": "/assets/voidpets/determination/4.svg",
+    "5": "/assets/voidpets/determination/5.svg"
+  }
+}

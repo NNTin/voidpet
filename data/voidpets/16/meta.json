@@ -1,0 +1,15 @@
+{
+  "id": "16",
+  "name": "Wrath",
+  "class": "Fighter",
+  "element": "Fire",
+  "rarity": "Legendary",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/wrath/1.svg",
+    "2": "/assets/voidpets/wrath/2.svg",
+    "3": "/assets/voidpets/wrath/3.svg",
+    "4": "/assets/voidpets/wrath/4.svg",
+    "5": "/assets/voidpets/wrath/5.svg"
+  }
+}

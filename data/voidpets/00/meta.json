@@ -1,0 +1,15 @@
+{
+  "id": "00",
+  "name": "Envy",
+  "class": "Fighter",
+  "element": "Metal",
+  "rarity": "Rare",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/envy/1.svg",
+    "2": "/assets/voidpets/envy/2.svg",
+    "3": "/assets/voidpets/envy/3.svg",
+    "4": "/assets/voidpets/envy/4.svg",
+    "5": "/assets/voidpets/envy/5.svg"
+  }
+}

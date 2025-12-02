@@ -1,0 +1,15 @@
+{
+  "id": "13",
+  "name": "Pride",
+  "class": "Unknown",
+  "element": "Metal",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/pride/1.svg",
+    "2": "/assets/voidpets/pride/2.svg",
+    "3": "/assets/voidpets/pride/3.svg",
+    "4": "/assets/voidpets/pride/4.svg",
+    "5": "/assets/voidpets/pride/5.svg"
+  }
+}

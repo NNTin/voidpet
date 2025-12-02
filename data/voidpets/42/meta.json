@@ -1,0 +1,15 @@
+{
+  "id": "42",
+  "name": "Joy",
+  "class": "Healer",
+  "element": "Fire",
+  "rarity": "Rare",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/joy/1.svg",
+    "2": "/assets/voidpets/joy/2.svg",
+    "3": "/assets/voidpets/joy/3.svg",
+    "4": "/assets/voidpets/joy/4.svg",
+    "5": "/assets/voidpets/joy/5.svg"
+  }
+}

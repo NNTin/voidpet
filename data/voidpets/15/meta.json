@@ -1,0 +1,15 @@
+{
+  "id": "15",
+  "name": "Sloth",
+  "class": "Unknown",
+  "element": "Earth",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/sloth/1.svg",
+    "2": "/assets/voidpets/sloth/2.svg",
+    "3": "/assets/voidpets/sloth/3.svg",
+    "4": "/assets/voidpets/sloth/4.svg",
+    "5": "/assets/voidpets/sloth/5.svg"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "33",
+  "name": "Disdain",
+  "class": "Unknown",
+  "element": "Metal",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/disdain/1.svg",
+    "2": "/assets/voidpets/disdain/2.svg",
+    "3": "/assets/voidpets/disdain/3.svg",
+    "4": "/assets/voidpets/disdain/4.svg",
+    "5": "/assets/voidpets/disdain/5.svg"
+  }
+}

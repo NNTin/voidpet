@@ -1,0 +1,15 @@
+{
+  "id": "29",
+  "name": "Desperate",
+  "class": "Unknown",
+  "element": "Metal",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/desperate/1.svg",
+    "2": "/assets/voidpets/desperate/2.svg",
+    "3": "/assets/voidpets/desperate/3.svg",
+    "4": "/assets/voidpets/desperate/4.svg",
+    "5": "/assets/voidpets/desperate/5.svg"
+  }
+}

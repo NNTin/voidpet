@@ -1,0 +1,15 @@
+{
+  "id": "05",
+  "name": "Spite",
+  "class": "Fighter",
+  "element": "Metal",
+  "rarity": "Rare",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/spite/1.svg",
+    "2": "/assets/voidpets/spite/2.svg",
+    "3": "/assets/voidpets/spite/3.svg",
+    "4": "/assets/voidpets/spite/4.svg",
+    "5": "/assets/voidpets/spite/5.svg"
+  }
+}

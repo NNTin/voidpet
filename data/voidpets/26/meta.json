@@ -1,0 +1,15 @@
+{
+  "id": "26",
+  "name": "Curious",
+  "class": "Fighter",
+  "element": "Wood",
+  "rarity": "Rare",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/curious/1.svg",
+    "2": "/assets/voidpets/curious/2.svg",
+    "3": "/assets/voidpets/curious/3.svg",
+    "4": "/assets/voidpets/curious/4.svg",
+    "5": "/assets/voidpets/curious/5.svg"
+  }
+}

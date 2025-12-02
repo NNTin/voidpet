@@ -1,0 +1,15 @@
+{
+  "id": "48",
+  "name": "Petulance",
+  "class": "Unknown",
+  "element": "Wood",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/petulance/1.svg",
+    "2": "/assets/voidpets/petulance/2.svg",
+    "3": "/assets/voidpets/petulance/3.svg",
+    "4": "/assets/voidpets/petulance/4.svg",
+    "5": "/assets/voidpets/petulance/5.svg"
+  }
+}

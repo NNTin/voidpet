@@ -1,0 +1,752 @@
+[
+  {
+    "id": "00",
+    "name": "Envy",
+    "class": "Fighter",
+    "element": "Metal",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/envy/1.svg",
+      "2": "/assets/voidpets/envy/2.svg",
+      "3": "/assets/voidpets/envy/3.svg",
+      "4": "/assets/voidpets/envy/4.svg",
+      "5": "/assets/voidpets/envy/5.svg"
+    }
+  },
+  {
+    "id": "01",
+    "name": "Anxious",
+    "class": "Fighter",
+    "element": "Water",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/anxious/1.svg",
+      "2": "/assets/voidpets/anxious/2.svg",
+      "3": "/assets/voidpets/anxious/3.svg",
+      "4": "/assets/voidpets/anxious/4.svg",
+      "5": "/assets/voidpets/anxious/5.svg"
+    }
+  },
+  {
+    "id": "02",
+    "name": "Sad",
+    "class": "Fighter",
+    "element": "Water",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/sad/1.svg",
+      "2": "/assets/voidpets/sad/2.svg",
+      "3": "/assets/voidpets/sad/3.svg",
+      "4": "/assets/voidpets/sad/4.svg",
+      "5": "/assets/voidpets/sad/5.svg"
+    }
+  },
+  {
+    "id": "03",
+    "name": "Anger",
+    "class": "Fighter",
+    "element": "Fire",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/anger/1.svg",
+      "2": "/assets/voidpets/anger/2.svg",
+      "3": "/assets/voidpets/anger/3.svg",
+      "4": "/assets/voidpets/anger/4.svg",
+      "5": "/assets/voidpets/anger/5.svg"
+    }
+  },
+  {
+    "id": "04",
+    "name": "Pain",
+    "class": "Unknown",
+    "element": "Fire",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/pain/1.svg",
+      "2": "/assets/voidpets/pain/2.svg",
+      "3": "/assets/voidpets/pain/3.svg",
+      "4": "/assets/voidpets/pain/4.svg",
+      "5": "/assets/voidpets/pain/5.svg"
+    }
+  },
+  {
+    "id": "05",
+    "name": "Spite",
+    "class": "Fighter",
+    "element": "Metal",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/spite/1.svg",
+      "2": "/assets/voidpets/spite/2.svg",
+      "3": "/assets/voidpets/spite/3.svg",
+      "4": "/assets/voidpets/spite/4.svg",
+      "5": "/assets/voidpets/spite/5.svg"
+    }
+  },
+  {
+    "id": "06",
+    "name": "Lonely",
+    "class": "Healer",
+    "element": "Water",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/lonely/1.svg",
+      "2": "/assets/voidpets/lonely/2.svg",
+      "3": "/assets/voidpets/lonely/3.svg",
+      "4": "/assets/voidpets/lonely/4.svg",
+      "5": "/assets/voidpets/lonely/5.svg"
+    }
+  },
+  {
+    "id": "07",
+    "name": "Paranoia",
+    "class": "Fighter",
+    "element": "Metal",
+    "rarity": "Epic",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/paranoia/1.svg",
+      "2": "/assets/voidpets/paranoia/2.svg",
+      "3": "/assets/voidpets/paranoia/3.svg",
+      "4": "/assets/voidpets/paranoia/4.svg",
+      "5": "/assets/voidpets/paranoia/5.svg"
+    }
+  },
+  {
+    "id": "08",
+    "name": "Sonder",
+    "class": "Healer",
+    "element": "Water",
+    "rarity": "Epic",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/sonder/1.svg",
+      "2": "/assets/voidpets/sonder/2.svg",
+      "3": "/assets/voidpets/sonder/3.svg",
+      "4": "/assets/voidpets/sonder/4.svg",
+      "5": "/assets/voidpets/sonder/5.svg"
+    }
+  },
+  {
+    "id": "09",
+    "name": "Sanctimony",
+    "class": "Fighter",
+    "element": "Earth",
+    "rarity": "Epic",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/sanctimony/1.svg",
+      "2": "/assets/voidpets/sanctimony/2.svg",
+      "3": "/assets/voidpets/sanctimony/3.svg",
+      "4": "/assets/voidpets/sanctimony/4.svg",
+      "5": "/assets/voidpets/sanctimony/5.svg"
+    }
+  },
+  {
+    "id": "10",
+    "name": "Abandonment",
+    "class": "Tank",
+    "element": "Water",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/abandonment/1.svg",
+      "2": "/assets/voidpets/abandonment/2.svg",
+      "3": "/assets/voidpets/abandonment/3.svg",
+      "4": "/assets/voidpets/abandonment/4.svg",
+      "5": "/assets/voidpets/abandonment/5.svg"
+    }
+  },
+  {
+    "id": "11",
+    "name": "Jealous",
+    "class": "Unknown",
+    "element": "Wood",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/jealous/1.svg",
+      "2": "/assets/voidpets/jealous/2.svg",
+      "3": "/assets/voidpets/jealous/3.svg",
+      "4": "/assets/voidpets/jealous/4.svg",
+      "5": "/assets/voidpets/jealous/5.svg"
+    }
+  },
+  {
+    "id": "12",
+    "name": "Gluttony",
+    "class": "Fighter",
+    "element": "Earth",
+    "rarity": "Legendary",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/gluttony/1.svg",
+      "2": "/assets/voidpets/gluttony/2.svg",
+      "3": "/assets/voidpets/gluttony/3.svg",
+      "4": "/assets/voidpets/gluttony/4.svg",
+      "5": "/assets/voidpets/gluttony/5.svg"
+    }
+  },
+  {
+    "id": "13",
+    "name": "Pride",
+    "class": "Unknown",
+    "element": "Metal",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/pride/1.svg",
+      "2": "/assets/voidpets/pride/2.svg",
+      "3": "/assets/voidpets/pride/3.svg",
+      "4": "/assets/voidpets/pride/4.svg",
+      "5": "/assets/voidpets/pride/5.svg"
+    }
+  },
+  {
+    "id": "14",
+    "name": "Lust",
+    "class": "Unknown",
+    "element": "Metal",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/lust/1.svg",
+      "2": "/assets/voidpets/lust/2.svg",
+      "3": "/assets/voidpets/lust/3.svg",
+      "4": "/assets/voidpets/lust/4.svg",
+      "5": "/assets/voidpets/lust/5.svg"
+    }
+  },
+  {
+    "id": "15",
+    "name": "Sloth",
+    "class": "Unknown",
+    "element": "Earth",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/sloth/1.svg",
+      "2": "/assets/voidpets/sloth/2.svg",
+      "3": "/assets/voidpets/sloth/3.svg",
+      "4": "/assets/voidpets/sloth/4.svg",
+      "5": "/assets/voidpets/sloth/5.svg"
+    }
+  },
+  {
+    "id": "16",
+    "name": "Wrath",
+    "class": "Fighter",
+    "element": "Fire",
+    "rarity": "Legendary",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/wrath/1.svg",
+      "2": "/assets/voidpets/wrath/2.svg",
+      "3": "/assets/voidpets/wrath/3.svg",
+      "4": "/assets/voidpets/wrath/4.svg",
+      "5": "/assets/voidpets/wrath/5.svg"
+    }
+  },
+  {
+    "id": "17",
+    "name": "Greed",
+    "class": "Unknown",
+    "element": "Fire",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/greed/1.svg",
+      "2": "/assets/voidpets/greed/2.svg",
+      "3": "/assets/voidpets/greed/3.svg",
+      "4": "/assets/voidpets/greed/4.svg",
+      "5": "/assets/voidpets/greed/5.svg"
+    }
+  },
+  {
+    "id": "18",
+    "name": "Estrangement",
+    "class": "Unknown",
+    "element": "Water",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/estrangement/1.svg",
+      "2": "/assets/voidpets/estrangement/2.svg",
+      "3": "/assets/voidpets/estrangement/3.svg",
+      "4": "/assets/voidpets/estrangement/4.svg",
+      "5": "/assets/voidpets/estrangement/5.svg"
+    }
+  },
+  {
+    "id": "19",
+    "name": "Nostalgia",
+    "class": "Unknown",
+    "element": "Earth",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/nostalgia/1.svg",
+      "2": "/assets/voidpets/nostalgia/2.svg",
+      "3": "/assets/voidpets/nostalgia/3.svg",
+      "4": "/assets/voidpets/nostalgia/4.svg",
+      "5": "/assets/voidpets/nostalgia/5.svg"
+    }
+  },
+  {
+    "id": "20",
+    "name": "Judgement",
+    "class": "Fighter",
+    "element": "Metal",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/judgement/1.svg",
+      "2": "/assets/voidpets/judgement/2.svg",
+      "3": "/assets/voidpets/judgement/3.svg",
+      "4": "/assets/voidpets/judgement/4.svg",
+      "5": "/assets/voidpets/judgement/5.svg"
+    }
+  },
+  {
+    "id": "21",
+    "name": "Salty",
+    "class": "Tank",
+    "element": "Earth",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/salty/1.svg",
+      "2": "/assets/voidpets/salty/2.svg",
+      "3": "/assets/voidpets/salty/3.svg",
+      "4": "/assets/voidpets/salty/4.svg",
+      "5": "/assets/voidpets/salty/5.svg"
+    }
+  },
+  {
+    "id": "22",
+    "name": "Sadge",
+    "class": "Fighter",
+    "element": "Water",
+    "rarity": "Epic",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/sadge/1.svg",
+      "2": "/assets/voidpets/sadge/2.svg",
+      "3": "/assets/voidpets/sadge/3.svg",
+      "4": "/assets/voidpets/sadge/4.svg",
+      "5": "/assets/voidpets/sadge/5.svg"
+    }
+  },
+  {
+    "id": "23",
+    "name": "Down Bad",
+    "class": "Fighter",
+    "element": "Wood",
+    "rarity": "Legendary",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/down-bad/1.svg",
+      "2": "/assets/voidpets/down-bad/2.svg",
+      "3": "/assets/voidpets/down-bad/3.svg",
+      "4": "/assets/voidpets/down-bad/4.svg",
+      "5": "/assets/voidpets/down-bad/5.svg"
+    }
+  },
+  {
+    "id": "24",
+    "name": "Cringe",
+    "class": "Tank",
+    "element": "Wood",
+    "rarity": "Epic",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/cringe/1.svg",
+      "2": "/assets/voidpets/cringe/2.svg",
+      "3": "/assets/voidpets/cringe/3.svg",
+      "4": "/assets/voidpets/cringe/4.svg",
+      "5": "/assets/voidpets/cringe/5.svg"
+    }
+  },
+  {
+    "id": "25",
+    "name": "Grumpy",
+    "class": "Fighter",
+    "element": "Earth",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/grumpy/1.svg",
+      "2": "/assets/voidpets/grumpy/2.svg",
+      "3": "/assets/voidpets/grumpy/3.svg",
+      "4": "/assets/voidpets/grumpy/4.svg",
+      "5": "/assets/voidpets/grumpy/5.svg"
+    }
+  },
+  {
+    "id": "26",
+    "name": "Curious",
+    "class": "Fighter",
+    "element": "Wood",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/curious/1.svg",
+      "2": "/assets/voidpets/curious/2.svg",
+      "3": "/assets/voidpets/curious/3.svg",
+      "4": "/assets/voidpets/curious/4.svg",
+      "5": "/assets/voidpets/curious/5.svg"
+    }
+  },
+  {
+    "id": "27",
+    "name": "Glee",
+    "class": "Healer",
+    "element": "Earth",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/glee/1.svg",
+      "2": "/assets/voidpets/glee/2.svg",
+      "3": "/assets/voidpets/glee/3.svg",
+      "4": "/assets/voidpets/glee/4.svg",
+      "5": "/assets/voidpets/glee/5.svg"
+    }
+  },
+  {
+    "id": "28",
+    "name": "Rejection",
+    "class": "Tank",
+    "element": "Water",
+    "rarity": "Legendary",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/rejection/1.svg",
+      "2": "/assets/voidpets/rejection/2.svg",
+      "3": "/assets/voidpets/rejection/3.svg",
+      "4": "/assets/voidpets/rejection/4.svg",
+      "5": "/assets/voidpets/rejection/5.svg"
+    }
+  },
+  {
+    "id": "29",
+    "name": "Desperate",
+    "class": "Unknown",
+    "element": "Metal",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/desperate/1.svg",
+      "2": "/assets/voidpets/desperate/2.svg",
+      "3": "/assets/voidpets/desperate/3.svg",
+      "4": "/assets/voidpets/desperate/4.svg",
+      "5": "/assets/voidpets/desperate/5.svg"
+    }
+  },
+  {
+    "id": "30",
+    "name": "Defiance",
+    "class": "Unknown",
+    "element": "Fire",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/defiance/1.svg",
+      "2": "/assets/voidpets/defiance/2.svg",
+      "3": "/assets/voidpets/defiance/3.svg",
+      "4": "/assets/voidpets/defiance/4.svg",
+      "5": "/assets/voidpets/defiance/5.svg"
+    }
+  },
+  {
+    "id": "31",
+    "name": "Merry",
+    "class": "Healer",
+    "element": "Wood",
+    "rarity": "Epic",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/merry/1.svg",
+      "2": "/assets/voidpets/merry/2.svg",
+      "3": "/assets/voidpets/merry/3.svg",
+      "4": "/assets/voidpets/merry/4.svg",
+      "5": "/assets/voidpets/merry/5.svg"
+    }
+  },
+  {
+    "id": "32",
+    "name": "Apathy",
+    "class": "Fighter",
+    "element": "Earth",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/apathy/1.svg",
+      "2": "/assets/voidpets/apathy/2.svg",
+      "3": "/assets/voidpets/apathy/3.svg",
+      "4": "/assets/voidpets/apathy/4.svg",
+      "5": "/assets/voidpets/apathy/5.svg"
+    }
+  },
+  {
+    "id": "33",
+    "name": "Disdain",
+    "class": "Unknown",
+    "element": "Metal",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/disdain/1.svg",
+      "2": "/assets/voidpets/disdain/2.svg",
+      "3": "/assets/voidpets/disdain/3.svg",
+      "4": "/assets/voidpets/disdain/4.svg",
+      "5": "/assets/voidpets/disdain/5.svg"
+    }
+  },
+  {
+    "id": "34",
+    "name": "Panic",
+    "class": "Fighter",
+    "element": "Fire",
+    "rarity": "Epic",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/panic/1.svg",
+      "2": "/assets/voidpets/panic/2.svg",
+      "3": "/assets/voidpets/panic/3.svg",
+      "4": "/assets/voidpets/panic/4.svg",
+      "5": "/assets/voidpets/panic/5.svg"
+    }
+  },
+  {
+    "id": "35",
+    "name": "Resistance",
+    "class": "Unknown",
+    "element": "Earth",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/resistance/1.svg",
+      "2": "/assets/voidpets/resistance/2.svg",
+      "3": "/assets/voidpets/resistance/3.svg",
+      "4": "/assets/voidpets/resistance/4.svg",
+      "5": "/assets/voidpets/resistance/5.svg"
+    }
+  },
+  {
+    "id": "36",
+    "name": "Determination",
+    "class": "Tank",
+    "element": "Fire",
+    "rarity": "Epic",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/determination/1.svg",
+      "2": "/assets/voidpets/determination/2.svg",
+      "3": "/assets/voidpets/determination/3.svg",
+      "4": "/assets/voidpets/determination/4.svg",
+      "5": "/assets/voidpets/determination/5.svg"
+    }
+  },
+  {
+    "id": "37",
+    "name": "Wonder",
+    "class": "Healer",
+    "element": "Wood",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/wonder/1.svg",
+      "2": "/assets/voidpets/wonder/2.svg",
+      "3": "/assets/voidpets/wonder/3.svg",
+      "4": "/assets/voidpets/wonder/4.svg",
+      "5": "/assets/voidpets/wonder/5.svg"
+    }
+  },
+  {
+    "id": "38",
+    "name": "Mischief",
+    "class": "Unknown",
+    "element": "Wood",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/mischief/1.svg",
+      "2": "/assets/voidpets/mischief/2.svg",
+      "3": "/assets/voidpets/mischief/3.svg",
+      "4": "/assets/voidpets/mischief/4.svg",
+      "5": "/assets/voidpets/mischief/5.svg"
+    }
+  },
+  {
+    "id": "39",
+    "name": "Persistence",
+    "class": "Unknown",
+    "element": "Water",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/persistence/1.svg",
+      "2": "/assets/voidpets/persistence/2.svg",
+      "3": "/assets/voidpets/persistence/3.svg",
+      "4": "/assets/voidpets/persistence/4.svg",
+      "5": "/assets/voidpets/persistence/5.svg"
+    }
+  },
+  {
+    "id": "40",
+    "name": "Ambition",
+    "class": "Unknown",
+    "element": "Water",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/ambition/1.svg",
+      "2": "/assets/voidpets/ambition/2.svg",
+      "3": "/assets/voidpets/ambition/3.svg",
+      "4": "/assets/voidpets/ambition/4.svg",
+      "5": "/assets/voidpets/ambition/5.svg"
+    }
+  },
+  {
+    "id": "41",
+    "name": "Conviction",
+    "class": "Tank",
+    "element": "Metal",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/conviction/1.svg",
+      "2": "/assets/voidpets/conviction/2.svg",
+      "3": "/assets/voidpets/conviction/3.svg",
+      "4": "/assets/voidpets/conviction/4.svg",
+      "5": "/assets/voidpets/conviction/5.svg"
+    }
+  },
+  {
+    "id": "42",
+    "name": "Joy",
+    "class": "Healer",
+    "element": "Fire",
+    "rarity": "Rare",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/joy/1.svg",
+      "2": "/assets/voidpets/joy/2.svg",
+      "3": "/assets/voidpets/joy/3.svg",
+      "4": "/assets/voidpets/joy/4.svg",
+      "5": "/assets/voidpets/joy/5.svg"
+    }
+  },
+  {
+    "id": "43",
+    "name": "Wistful",
+    "class": "Fighter",
+    "element": "Wood",
+    "rarity": "Epic",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/wistful/1.svg",
+      "2": "/assets/voidpets/wistful/2.svg",
+      "3": "/assets/voidpets/wistful/3.svg",
+      "4": "/assets/voidpets/wistful/4.svg",
+      "5": "/assets/voidpets/wistful/5.svg"
+    }
+  },
+  {
+    "id": "44",
+    "name": "Scorn",
+    "class": "Unknown",
+    "element": "Metal",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/scorn/1.svg",
+      "2": "/assets/voidpets/scorn/2.svg",
+      "3": "/assets/voidpets/scorn/3.svg",
+      "4": "/assets/voidpets/scorn/4.svg",
+      "5": "/assets/voidpets/scorn/5.svg"
+    }
+  },
+  {
+    "id": "45",
+    "name": "Diligence",
+    "class": "Unknown",
+    "element": "Earth",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/diligence/1.svg",
+      "2": "/assets/voidpets/diligence/2.svg",
+      "3": "/assets/voidpets/diligence/3.svg",
+      "4": "/assets/voidpets/diligence/4.svg",
+      "5": "/assets/voidpets/diligence/5.svg"
+    }
+  },
+  {
+    "id": "46",
+    "name": "Patience",
+    "class": "Unknown",
+    "element": "Wood",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/patience/1.svg",
+      "2": "/assets/voidpets/patience/2.svg",
+      "3": "/assets/voidpets/patience/3.svg",
+      "4": "/assets/voidpets/patience/4.svg",
+      "5": "/assets/voidpets/patience/5.svg"
+    }
+  },
+  {
+    "id": "47",
+    "name": "Charity",
+    "class": "Unknown",
+    "element": "Fire",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/charity/1.svg",
+      "2": "/assets/voidpets/charity/2.svg",
+      "3": "/assets/voidpets/charity/3.svg",
+      "4": "/assets/voidpets/charity/4.svg",
+      "5": "/assets/voidpets/charity/5.svg"
+    }
+  },
+  {
+    "id": "48",
+    "name": "Petulance",
+    "class": "Unknown",
+    "element": "Wood",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/petulance/1.svg",
+      "2": "/assets/voidpets/petulance/2.svg",
+      "3": "/assets/voidpets/petulance/3.svg",
+      "4": "/assets/voidpets/petulance/4.svg",
+      "5": "/assets/voidpets/petulance/5.svg"
+    }
+  },
+  {
+    "id": "49",
+    "name": "Devotion",
+    "class": "Unknown",
+    "element": "Fire",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/devotion/1.svg",
+      "2": "/assets/voidpets/devotion/2.svg",
+      "3": "/assets/voidpets/devotion/3.svg",
+      "4": "/assets/voidpets/devotion/4.svg",
+      "5": "/assets/voidpets/devotion/5.svg"
+    }
+  }
+]

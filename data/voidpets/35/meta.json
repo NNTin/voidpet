@@ -1,0 +1,15 @@
+{
+  "id": "35",
+  "name": "Resistance",
+  "class": "Unknown",
+  "element": "Earth",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/resistance/1.svg",
+    "2": "/assets/voidpets/resistance/2.svg",
+    "3": "/assets/voidpets/resistance/3.svg",
+    "4": "/assets/voidpets/resistance/4.svg",
+    "5": "/assets/voidpets/resistance/5.svg"
+  }
+}

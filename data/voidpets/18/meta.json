@@ -1,0 +1,15 @@
+{
+  "id": "18",
+  "name": "Estrangement",
+  "class": "Unknown",
+  "element": "Water",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/estrangement/1.svg",
+    "2": "/assets/voidpets/estrangement/2.svg",
+    "3": "/assets/voidpets/estrangement/3.svg",
+    "4": "/assets/voidpets/estrangement/4.svg",
+    "5": "/assets/voidpets/estrangement/5.svg"
+  }
+}

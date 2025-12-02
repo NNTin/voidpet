@@ -1,0 +1,15 @@
+{
+  "id": "19",
+  "name": "Nostalgia",
+  "class": "Unknown",
+  "element": "Earth",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/nostalgia/1.svg",
+    "2": "/assets/voidpets/nostalgia/2.svg",
+    "3": "/assets/voidpets/nostalgia/3.svg",
+    "4": "/assets/voidpets/nostalgia/4.svg",
+    "5": "/assets/voidpets/nostalgia/5.svg"
+  }
+}

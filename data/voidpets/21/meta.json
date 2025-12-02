@@ -1,0 +1,15 @@
+{
+  "id": "21",
+  "name": "Salty",
+  "class": "Tank",
+  "element": "Earth",
+  "rarity": "Rare",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/salty/1.svg",
+    "2": "/assets/voidpets/salty/2.svg",
+    "3": "/assets/voidpets/salty/3.svg",
+    "4": "/assets/voidpets/salty/4.svg",
+    "5": "/assets/voidpets/salty/5.svg"
+  }
+}

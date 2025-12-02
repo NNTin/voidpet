@@ -1,0 +1,15 @@
+{
+  "id": "31",
+  "name": "Merry",
+  "class": "Healer",
+  "element": "Wood",
+  "rarity": "Epic",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/merry/1.svg",
+    "2": "/assets/voidpets/merry/2.svg",
+    "3": "/assets/voidpets/merry/3.svg",
+    "4": "/assets/voidpets/merry/4.svg",
+    "5": "/assets/voidpets/merry/5.svg"
+  }
+}

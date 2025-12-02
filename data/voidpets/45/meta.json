@@ -1,0 +1,15 @@
+{
+  "id": "45",
+  "name": "Diligence",
+  "class": "Unknown",
+  "element": "Earth",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/diligence/1.svg",
+    "2": "/assets/voidpets/diligence/2.svg",
+    "3": "/assets/voidpets/diligence/3.svg",
+    "4": "/assets/voidpets/diligence/4.svg",
+    "5": "/assets/voidpets/diligence/5.svg"
+  }
+}

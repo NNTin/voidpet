@@ -1,0 +1,15 @@
+{
+  "id": "17",
+  "name": "Greed",
+  "class": "Unknown",
+  "element": "Fire",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/greed/1.svg",
+    "2": "/assets/voidpets/greed/2.svg",
+    "3": "/assets/voidpets/greed/3.svg",
+    "4": "/assets/voidpets/greed/4.svg",
+    "5": "/assets/voidpets/greed/5.svg"
+  }
+}

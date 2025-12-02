@@ -1,0 +1,15 @@
+{
+  "id": "24",
+  "name": "Cringe",
+  "class": "Tank",
+  "element": "Wood",
+  "rarity": "Epic",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/cringe/1.svg",
+    "2": "/assets/voidpets/cringe/2.svg",
+    "3": "/assets/voidpets/cringe/3.svg",
+    "4": "/assets/voidpets/cringe/4.svg",
+    "5": "/assets/voidpets/cringe/5.svg"
+  }
+}
