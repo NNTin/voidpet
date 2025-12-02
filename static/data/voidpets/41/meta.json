@@ -1,9 +1,9 @@
 {
   "id": "41",
   "name": "Conviction",
-  "class": "Unknown",
+  "class": "Tank",
   "element": "Metal",
-  "rarity": "Unknown",
+  "rarity": "Rare",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/conviction/1.svg",

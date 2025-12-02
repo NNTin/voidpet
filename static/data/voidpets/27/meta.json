@@ -1,9 +1,9 @@
 {
   "id": "27",
   "name": "Glee",
-  "class": "Unknown",
+  "class": "Healer",
   "element": "Earth",
-  "rarity": "Unknown",
+  "rarity": "Rare",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/glee/1.svg",

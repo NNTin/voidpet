@@ -1,9 +1,9 @@
 {
   "id": "12",
   "name": "Gluttony",
-  "class": "Unknown",
+  "class": "Fighter",
   "element": "Earth",
-  "rarity": "Unknown",
+  "rarity": "Legendary",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/gluttony/1.svg",

@@ -1,9 +1,9 @@
 {
   "id": "02",
   "name": "Sad",
-  "class": "Unknown",
+  "class": "Fighter",
   "element": "Water",
-  "rarity": "Unknown",
+  "rarity": "Rare",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/sad/1.svg",

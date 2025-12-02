@@ -3,7 +3,7 @@
   "name": "Anxious",
   "class": "Fighter",
   "element": "Water",
-  "rarity": "Unknown",
+  "rarity": "Rare",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/anxious/1.svg",

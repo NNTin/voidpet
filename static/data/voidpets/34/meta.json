@@ -1,9 +1,9 @@
 {
   "id": "34",
   "name": "Panic",
-  "class": "Unknown",
+  "class": "Fighter",
   "element": "Fire",
-  "rarity": "Unknown",
+  "rarity": "Epic",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/panic/1.svg",

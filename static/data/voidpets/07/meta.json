@@ -3,7 +3,7 @@
   "name": "Paranoia",
   "class": "Fighter",
   "element": "Metal",
-  "rarity": "Unknown",
+  "rarity": "Epic",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/paranoia/1.svg",

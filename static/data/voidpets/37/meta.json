@@ -1,9 +1,9 @@
 {
   "id": "37",
   "name": "Wonder",
-  "class": "Unknown",
+  "class": "Healer",
   "element": "Wood",
-  "rarity": "Unknown",
+  "rarity": "Rare",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/wonder/1.svg",

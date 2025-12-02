@@ -1,9 +1,9 @@
 {
   "id": "10",
   "name": "Abandonment",
-  "class": "Unknown",
+  "class": "Tank",
   "element": "Water",
-  "rarity": "Unknown",
+  "rarity": "Rare",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/abandonment/1.svg",

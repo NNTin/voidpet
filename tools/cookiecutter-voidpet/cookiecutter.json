@@ -3,6 +3,6 @@
   "name": "Anxious",
   "class": ["Unknown", "Fighter", "Healer", "Tank"],
   "element": ["Wood", "Earth", "Water", "Fire", "Metal"],
-  "rarity": ["Unknown", "Epic", "Legendary"],
+  "rarity": ["Unknown", "Rare", "Epic", "Legendary"],
   "description": "Describe this voidpet..."
 }

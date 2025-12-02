@@ -1,9 +1,9 @@
 {
   "id": "22",
   "name": "Sadge",
-  "class": "Unknown",
+  "class": "Fighter",
   "element": "Water",
-  "rarity": "Unknown",
+  "rarity": "Epic",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/sadge/1.svg",

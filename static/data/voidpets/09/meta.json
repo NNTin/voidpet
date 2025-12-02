@@ -1,9 +1,9 @@
 {
   "id": "09",
   "name": "Sanctimony",
-  "class": "Unknown",
+  "class": "Fighter",
   "element": "Earth",
-  "rarity": "Unknown",
+  "rarity": "Epic",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/sanctimony/1.svg",

@@ -1,9 +1,9 @@
 {
   "id": "28",
   "name": "Rejection",
-  "class": "Unknown",
+  "class": "Tank",
   "element": "Water",
-  "rarity": "Unknown",
+  "rarity": "Legendary",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/rejection/1.svg",

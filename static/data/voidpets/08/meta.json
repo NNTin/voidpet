@@ -1,9 +1,9 @@
 {
   "id": "08",
   "name": "Sonder",
-  "class": "Unknown",
+  "class": "Healer",
   "element": "Water",
-  "rarity": "Unknown",
+  "rarity": "Epic",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/sonder/1.svg",

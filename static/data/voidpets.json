@@ -2,9 +2,9 @@
   {
     "id": "00",
     "name": "Envy",
-    "class": "Unknown",
+    "class": "Fighter",
     "element": "Metal",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/envy/1.svg",
@@ -19,7 +19,7 @@
     "name": "Anxious",
     "class": "Fighter",
     "element": "Water",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/anxious/1.svg",
@@ -32,9 +32,9 @@
   {
     "id": "02",
     "name": "Sad",
-    "class": "Unknown",
+    "class": "Fighter",
     "element": "Water",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/sad/1.svg",
@@ -47,9 +47,9 @@
   {
     "id": "03",
     "name": "Anger",
-    "class": "Unknown",
+    "class": "Fighter",
     "element": "Fire",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/anger/1.svg",
@@ -77,9 +77,9 @@
   {
     "id": "05",
     "name": "Spite",
-    "class": "Unknown",
+    "class": "Fighter",
     "element": "Metal",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/spite/1.svg",
@@ -92,9 +92,9 @@
   {
     "id": "06",
     "name": "Lonely",
-    "class": "Unknown",
+    "class": "Healer",
     "element": "Water",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/lonely/1.svg",
@@ -109,7 +109,7 @@
     "name": "Paranoia",
     "class": "Fighter",
     "element": "Metal",
-    "rarity": "Unknown",
+    "rarity": "Epic",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/paranoia/1.svg",
@@ -122,9 +122,9 @@
   {
     "id": "08",
     "name": "Sonder",
-    "class": "Unknown",
+    "class": "Healer",
     "element": "Water",
-    "rarity": "Unknown",
+    "rarity": "Epic",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/sonder/1.svg",
@@ -137,9 +137,9 @@
   {
     "id": "09",
     "name": "Sanctimony",
-    "class": "Unknown",
+    "class": "Fighter",
     "element": "Earth",
-    "rarity": "Unknown",
+    "rarity": "Epic",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/sanctimony/1.svg",
@@ -152,9 +152,9 @@
   {
     "id": "10",
     "name": "Abandonment",
-    "class": "Unknown",
+    "class": "Tank",
     "element": "Water",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/abandonment/1.svg",
@@ -182,9 +182,9 @@
   {
     "id": "12",
     "name": "Gluttony",
-    "class": "Unknown",
+    "class": "Fighter",
     "element": "Earth",
-    "rarity": "Unknown",
+    "rarity": "Legendary",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/gluttony/1.svg",
@@ -242,9 +242,9 @@
   {
     "id": "16",
     "name": "Wrath",
-    "class": "Unknown",
+    "class": "Fighter",
     "element": "Fire",
-    "rarity": "Unknown",
+    "rarity": "Legendary",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/wrath/1.svg",
@@ -302,9 +302,9 @@
   {
     "id": "20",
     "name": "Judgement",
-    "class": "Unknown",
+    "class": "Fighter",
     "element": "Metal",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/judgement/1.svg",
@@ -317,9 +317,9 @@
   {
     "id": "21",
     "name": "Salty",
-    "class": "Unknown",
+    "class": "Tank",
     "element": "Earth",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/salty/1.svg",
@@ -332,9 +332,9 @@
   {
     "id": "22",
     "name": "Sadge",
-    "class": "Unknown",
+    "class": "Fighter",
     "element": "Water",
-    "rarity": "Unknown",
+    "rarity": "Epic",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/sadge/1.svg",
@@ -347,9 +347,9 @@
   {
     "id": "23",
     "name": "Down Bad",
-    "class": "Unknown",
+    "class": "Fighter",
     "element": "Wood",
-    "rarity": "Unknown",
+    "rarity": "Legendary",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/down-bad/1.svg",
@@ -362,9 +362,9 @@
   {
     "id": "24",
     "name": "Cringe",
-    "class": "Unknown",
+    "class": "Tank",
     "element": "Wood",
-    "rarity": "Unknown",
+    "rarity": "Epic",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/cringe/1.svg",
@@ -377,9 +377,9 @@
   {
     "id": "25",
     "name": "Grumpy",
-    "class": "Unknown",
+    "class": "Fighter",
     "element": "Earth",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/grumpy/1.svg",
@@ -392,9 +392,9 @@
   {
     "id": "26",
     "name": "Curious",
-    "class": "Unknown",
+    "class": "Fighter",
     "element": "Wood",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/curious/1.svg",
@@ -407,9 +407,9 @@
   {
     "id": "27",
     "name": "Glee",
-    "class": "Unknown",
+    "class": "Healer",
     "element": "Earth",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/glee/1.svg",
@@ -422,9 +422,9 @@
   {
     "id": "28",
     "name": "Rejection",
-    "class": "Unknown",
+    "class": "Tank",
     "element": "Water",
-    "rarity": "Unknown",
+    "rarity": "Legendary",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/rejection/1.svg",
@@ -467,9 +467,9 @@
   {
     "id": "31",
     "name": "Merry",
-    "class": "Unknown",
+    "class": "Healer",
     "element": "Wood",
-    "rarity": "Unknown",
+    "rarity": "Epic",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/merry/1.svg",
@@ -482,9 +482,9 @@
   {
     "id": "32",
     "name": "Apathy",
-    "class": "Unknown",
+    "class": "Fighter",
     "element": "Earth",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/apathy/1.svg",
@@ -512,9 +512,9 @@
   {
     "id": "34",
     "name": "Panic",
-    "class": "Unknown",
+    "class": "Fighter",
     "element": "Fire",
-    "rarity": "Unknown",
+    "rarity": "Epic",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/panic/1.svg",
@@ -542,9 +542,9 @@
   {
     "id": "36",
     "name": "Determination",
-    "class": "Unknown",
+    "class": "Tank",
     "element": "Fire",
-    "rarity": "Unknown",
+    "rarity": "Epic",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/determination/1.svg",
@@ -557,9 +557,9 @@
   {
     "id": "37",
     "name": "Wonder",
-    "class": "Unknown",
+    "class": "Healer",
     "element": "Wood",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/wonder/1.svg",
@@ -617,9 +617,9 @@
   {
     "id": "41",
     "name": "Conviction",
-    "class": "Unknown",
+    "class": "Tank",
     "element": "Metal",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/conviction/1.svg",
@@ -632,9 +632,9 @@
   {
     "id": "42",
     "name": "Joy",
-    "class": "Unknown",
+    "class": "Healer",
     "element": "Fire",
-    "rarity": "Unknown",
+    "rarity": "Rare",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/joy/1.svg",
@@ -647,9 +647,9 @@
   {
     "id": "43",
     "name": "Wistful",
-    "class": "Unknown",
+    "class": "Fighter",
     "element": "Wood",
-    "rarity": "Unknown",
+    "rarity": "Epic",
     "description": "Describe this voidpet...",
     "levels": {
       "1": "/assets/voidpets/wistful/1.svg",

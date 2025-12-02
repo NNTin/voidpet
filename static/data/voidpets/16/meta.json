@@ -1,9 +1,9 @@
 {
   "id": "16",
   "name": "Wrath",
-  "class": "Unknown",
+  "class": "Fighter",
   "element": "Fire",
-  "rarity": "Unknown",
+  "rarity": "Legendary",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/wrath/1.svg",

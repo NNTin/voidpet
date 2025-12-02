@@ -1,9 +1,9 @@
 {
   "id": "43",
   "name": "Wistful",
-  "class": "Unknown",
+  "class": "Fighter",
   "element": "Wood",
-  "rarity": "Unknown",
+  "rarity": "Epic",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/wistful/1.svg",

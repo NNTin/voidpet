@@ -1,9 +1,9 @@
 {
   "id": "06",
   "name": "Lonely",
-  "class": "Unknown",
+  "class": "Healer",
   "element": "Water",
-  "rarity": "Unknown",
+  "rarity": "Rare",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/lonely/1.svg",

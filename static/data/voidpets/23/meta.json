@@ -1,9 +1,9 @@
 {
   "id": "23",
   "name": "Down Bad",
-  "class": "Unknown",
+  "class": "Fighter",
   "element": "Wood",
-  "rarity": "Unknown",
+  "rarity": "Legendary",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/down-bad/1.svg",

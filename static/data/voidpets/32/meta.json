@@ -1,9 +1,9 @@
 {
   "id": "32",
   "name": "Apathy",
-  "class": "Unknown",
+  "class": "Fighter",
   "element": "Earth",
-  "rarity": "Unknown",
+  "rarity": "Rare",
   "description": "Describe this voidpet...",
   "levels": {
     "1": "/assets/voidpets/apathy/1.svg",
