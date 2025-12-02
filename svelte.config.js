@@ -8,6 +8,9 @@ export default {
     }),
     paths: {
       base: '/voidpet'
+    },
+    prerender: {
+      handleUnseenRoutes: 'ignore'
     }
   },
   preprocess: sveltePreprocess(),
