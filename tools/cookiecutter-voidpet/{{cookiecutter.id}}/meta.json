@@ -6,10 +6,10 @@
   "rarity": "{{ cookiecutter.rarity }}",
   "description": "{{ cookiecutter.description }}",
   "levels": {
-    "1": "/assets/voidpets/{{ cookiecutter.name | lower }}/1.svg",
-    "2": "/assets/voidpets/{{ cookiecutter.name | lower }}/2.svg",
-    "3": "/assets/voidpets/{{ cookiecutter.name | lower }}/3.svg",
-    "4": "/assets/voidpets/{{ cookiecutter.name | lower }}/4.svg",
-    "5": "/assets/voidpets/{{ cookiecutter.name | lower }}/5.svg"
+    "1": "/assets/voidpets/{{ cookiecutter.name | lower | replace(' ', '-') }}/1.svg",
+    "2": "/assets/voidpets/{{ cookiecutter.name | lower | replace(' ', '-') }}/2.svg",
+    "3": "/assets/voidpets/{{ cookiecutter.name | lower | replace(' ', '-') }}/3.svg",
+    "4": "/assets/voidpets/{{ cookiecutter.name | lower | replace(' ', '-') }}/4.svg",
+    "5": "/assets/voidpets/{{ cookiecutter.name | lower | replace(' ', '-') }}/5.svg"
   }
 }
