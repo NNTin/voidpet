@@ -30,6 +30,9 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Create .nojekyll file
+        run: touch build/.nojekyll
+
       - name: deploy to github pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
