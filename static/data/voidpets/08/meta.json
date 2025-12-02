@@ -1,0 +1,15 @@
+{
+  "id": "08",
+  "name": "Sonder",
+  "class": "Unknown",
+  "element": "Water",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/sonder/1.svg",
+    "2": "/assets/voidpets/sonder/2.svg",
+    "3": "/assets/voidpets/sonder/3.svg",
+    "4": "/assets/voidpets/sonder/4.svg",
+    "5": "/assets/voidpets/sonder/5.svg"
+  }
+}

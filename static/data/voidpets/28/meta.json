@@ -1,0 +1,15 @@
+{
+  "id": "28",
+  "name": "Rejection",
+  "class": "Unknown",
+  "element": "Water",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/28/level-1.svg",
+    "2": "/assets/voidpets/28/level-2.svg",
+    "3": "/assets/voidpets/28/level-3.svg",
+    "4": "/assets/voidpets/28/level-4.svg",
+    "5": "/assets/voidpets/28/level-5.svg"
+  }
+}

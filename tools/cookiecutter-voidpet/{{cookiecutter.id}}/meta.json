@@ -1,0 +1,15 @@
+{
+  "id": "{{ cookiecutter.id }}",
+  "name": "{{ cookiecutter.name }}",
+  "class": "Unknown",
+  "element": "{{ cookiecutter.element }}",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/{{ cookiecutter.id }}/level-1.svg",
+    "2": "/assets/voidpets/{{ cookiecutter.id }}/level-2.svg",
+    "3": "/assets/voidpets/{{ cookiecutter.id }}/level-3.svg",
+    "4": "/assets/voidpets/{{ cookiecutter.id }}/level-4.svg",
+    "5": "/assets/voidpets/{{ cookiecutter.id }}/level-5.svg"
+  }
+}

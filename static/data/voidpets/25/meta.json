@@ -1,0 +1,15 @@
+{
+  "id": "25",
+  "name": "Grumpy",
+  "class": "Unknown",
+  "element": "Earth",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/25/level-1.svg",
+    "2": "/assets/voidpets/25/level-2.svg",
+    "3": "/assets/voidpets/25/level-3.svg",
+    "4": "/assets/voidpets/25/level-4.svg",
+    "5": "/assets/voidpets/25/level-5.svg"
+  }
+}

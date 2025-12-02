@@ -1,0 +1,15 @@
+{
+  "id": "04",
+  "name": "Pain",
+  "class": "Unknown",
+  "element": "Fire",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/pain/1.svg",
+    "2": "/assets/voidpets/pain/2.svg",
+    "3": "/assets/voidpets/pain/3.svg",
+    "4": "/assets/voidpets/pain/4.svg",
+    "5": "/assets/voidpets/pain/5.svg"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "03",
+  "name": "Anger",
+  "class": "Unknown",
+  "element": "Fire",
+  "rarity": "Unknown",
+  "description": "Describe this voidpet...",
+  "levels": {
+    "1": "/assets/voidpets/anger/1.svg",
+    "2": "/assets/voidpets/anger/2.svg",
+    "3": "/assets/voidpets/anger/3.svg",
+    "4": "/assets/voidpets/anger/4.svg",
+    "5": "/assets/voidpets/anger/5.svg"
+  }
+}
