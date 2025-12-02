@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   import type { Voidpet } from "$lib/types";
 
   export let voidpet: Voidpet;
@@ -6,8 +7,6 @@
   export let showLevelControls: boolean = true;
   export let onDecreaseLevel: () => void = () => {};
   export let onIncreaseLevel: () => void = () => {};
-
-  const baseUrl = import.meta.env.BASE_URL || '';
 </script>
 
 <div class="voidpet-card">
@@ -16,14 +15,14 @@
   </div>
   <div class="element-badge" data-element={voidpet.element}>
     <img
-      src="{baseUrl}/assets/elements/{voidpet.element.toLowerCase()}.svg"
+      src="{base}/assets/elements/{voidpet.element.toLowerCase()}.svg"
       alt={voidpet.element}
       class="element-icon"
     />
     {voidpet.element}
   </div>
   <h2>{voidpet.name}</h2>
-  <img src="{baseUrl}{voidpet.levels[level]}" alt="{voidpet.name} Level {level}" />
+  <img src="{base}{voidpet.levels[level]}" alt="{voidpet.name} Level {level}" />
   {#if showLevelControls}
     <div class="level-controls">
       <button on:click={onDecreaseLevel} disabled={level === 1}> − </button>
