@@ -102,7 +102,7 @@
       // Populate tiers based on decoded data
       const allTieredIds = new Set<string>();
       
-      [...tiers, 'unranked'].forEach(tier => {
+      tiers.forEach(tier => {
         if (tierMap[tier]) {
           tierLists[tier] = tierMap[tier]
             .map(id => voidpets.find(v => v.id === id))
@@ -114,8 +114,7 @@
       });
 
       // Put any voidpets not in the URL into unranked
-      const untieredVoidpets = voidpets.filter(v => !allTieredIds.has(v.id));
-      tierLists.unranked = [...tierLists.unranked, ...untieredVoidpets];
+      tierLists.unranked = voidpets.filter(v => !allTieredIds.has(v.id));
     } catch (e) {
       console.error('Failed to parse tier data from URL:', e);
       tierLists.unranked = [...voidpets];
@@ -123,8 +122,9 @@
   }
 
   function updateUrl() {
-    // Encode tier structure: SS:id1,id2|S:id3,id4|A:id5|B:|C:|unranked:id6,id7
-    const parts = [...tiers, 'unranked'].map(tier => {
+    // Encode tier structure: SS:id1,id2|S:id3,id4|A:id5|B:|C:
+    // Only encode ranked tiers (ignore unranked)
+    const parts = tiers.map(tier => {
       const ids = tierLists[tier].map(v => v.id).join(',');
       return `${tier}:${ids}`;
     });
@@ -187,23 +187,10 @@
     };
     return colors[tier] || '#999999';
   }
-
-  function copyShareLink() {
-    const url = window.location.href;
-    navigator.clipboard.writeText(url).then(() => {
-      alert('Share link copied to clipboard!');
-    });
-  }
 </script>
 
 <main>
   <h1>Voidpet Tier List</h1>
-
-  <div class="share-controls">
-    <button class="share-button" on:click={copyShareLink}>
-      📋 Copy Share Link
-    </button>
-  </div>
 
   <div class="tierlist-container">
     {#each tiers as tier}
