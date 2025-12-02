@@ -9,6 +9,7 @@
   let draggedVoidpet: Voidpet | null = null;
   let draggedFromTier: string | null = null;
   let currentLevel: number = 5;
+  const baseUrl = import.meta.env.BASE_URL || '';
 
   // Tier list structure
   const tiers = ['SS', 'S', 'A', 'B', 'C'];
@@ -243,7 +244,7 @@
       Metal: 'metal'
     };
     const iconName = elementMap[element];
-    return iconName ? `/assets/elements/${iconName}.svg` : '';
+    return iconName ? `${baseUrl}/assets/elements/${iconName}.svg` : '';
   }
 
   function getRarityBackground(rarity: string): string {
@@ -306,7 +307,7 @@
                 <span class="element-icon unknown">❓</span>
               {/if}
               <span class="class-emoji">{getClassEmoji(voidpet.class)}</span>
-              <img src={voidpet.levels[currentLevel]} alt={voidpet.name} class="voidpet-image" />
+              <img src="{baseUrl}{voidpet.levels[currentLevel]}" alt={voidpet.name} class="voidpet-image" />
               <span class="voidpet-name">{voidpet.name}</span>
             </div>
           {/each}
@@ -341,7 +342,7 @@
               <span class="element-icon unknown">❓</span>
             {/if}
             <span class="class-emoji">{getClassEmoji(voidpet.class)}</span>
-            <img src={voidpet.levels[currentLevel]} alt={voidpet.name} class="voidpet-image" />
+            <img src="{baseUrl}{voidpet.levels[currentLevel]}" alt={voidpet.name} class="voidpet-image" />
             <span class="voidpet-name">{voidpet.name}</span>
           </div>
         {/each}
@@ -375,7 +376,7 @@
               <span class="element-icon unknown">❓</span>
             {/if}
             <span class="class-emoji">{getClassEmoji(voidpet.class)}</span>
-            <img src={voidpet.levels[currentLevel]} alt={voidpet.name} class="voidpet-image" />
+            <img src="{baseUrl}{voidpet.levels[currentLevel]}" alt={voidpet.name} class="voidpet-image" />
             <span class="voidpet-name">{voidpet.name}</span>
           </div>
         {/each}
