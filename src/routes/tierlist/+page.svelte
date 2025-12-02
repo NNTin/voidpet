@@ -403,31 +403,6 @@
     font-size: 2.5rem;
   }
 
-  .share-controls {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
-  }
-
-  .share-button {
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    border: 2px solid #4CAF50;
-    border-radius: 8px;
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-    transition: all 0.2s;
-    font-weight: 600;
-  }
-
-  .share-button:hover {
-    background-color: #45a049;
-    border-color: #45a049;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-
   .tierlist-container {
     display: flex;
     flex-direction: column;
@@ -590,10 +565,5 @@
     min-width: 80px;
     text-align: center;
     font-size: 1rem;
-  }
-
-  /* Drag over effect */
-  .tier-content:has(+ :hover) {
-    background-color: #e8f5e9;
   }
 </style>

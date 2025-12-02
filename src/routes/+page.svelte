@@ -41,6 +41,10 @@
       />
     {/each}
   </div>
+
+  <p class="disclaimer">
+    Disclaimer: This is a fan-made site for the game <a href="https://voidpet.com/" target="_blank">Voidpet</a>, and is not officially affiliated with or endorsed by the developers.
+  </p>
 </main>
 
 <style>
@@ -88,6 +92,23 @@
     font-weight: bold;
     min-width: 150px;
     text-align: center;
+  }
+
+  .disclaimer {
+    text-align: center;
+    margin: 1rem 0 2rem;
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  .disclaimer a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .disclaimer a:hover {
+    text-decoration: underline;
   }
 
   .voidpets-list {
