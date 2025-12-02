@@ -1,5 +1,8 @@
 {
   "id": "01",
   "name": "Anxious",
-  "element": ["Wood", "Earth", "Water", "Fire", "Metal"]
+  "class": ["Unknown", "Fighter", "Healer", "Tank"],
+  "element": ["Wood", "Earth", "Water", "Fire", "Metal"],
+  "rarity": ["Unknown", "Epic", "Legendary"],
+  "description": "Describe this voidpet..."
 }

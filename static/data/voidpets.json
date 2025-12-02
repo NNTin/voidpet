@@ -1,0 +1,752 @@
+[
+  {
+    "id": "00",
+    "name": "Envy",
+    "class": "Unknown",
+    "element": "Metal",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/envy/1.svg",
+      "2": "/assets/voidpets/envy/2.svg",
+      "3": "/assets/voidpets/envy/3.svg",
+      "4": "/assets/voidpets/envy/4.svg",
+      "5": "/assets/voidpets/envy/5.svg"
+    }
+  },
+  {
+    "id": "01",
+    "name": "Anxious",
+    "class": "Fighter",
+    "element": "Water",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/anxious/1.svg",
+      "2": "/assets/voidpets/anxious/2.svg",
+      "3": "/assets/voidpets/anxious/3.svg",
+      "4": "/assets/voidpets/anxious/4.svg",
+      "5": "/assets/voidpets/anxious/5.svg"
+    }
+  },
+  {
+    "id": "02",
+    "name": "Sad",
+    "class": "Unknown",
+    "element": "Water",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/sad/1.svg",
+      "2": "/assets/voidpets/sad/2.svg",
+      "3": "/assets/voidpets/sad/3.svg",
+      "4": "/assets/voidpets/sad/4.svg",
+      "5": "/assets/voidpets/sad/5.svg"
+    }
+  },
+  {
+    "id": "03",
+    "name": "Anger",
+    "class": "Unknown",
+    "element": "Fire",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/anger/1.svg",
+      "2": "/assets/voidpets/anger/2.svg",
+      "3": "/assets/voidpets/anger/3.svg",
+      "4": "/assets/voidpets/anger/4.svg",
+      "5": "/assets/voidpets/anger/5.svg"
+    }
+  },
+  {
+    "id": "04",
+    "name": "Pain",
+    "class": "Unknown",
+    "element": "Fire",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/pain/1.svg",
+      "2": "/assets/voidpets/pain/2.svg",
+      "3": "/assets/voidpets/pain/3.svg",
+      "4": "/assets/voidpets/pain/4.svg",
+      "5": "/assets/voidpets/pain/5.svg"
+    }
+  },
+  {
+    "id": "05",
+    "name": "Spite",
+    "class": "Unknown",
+    "element": "Metal",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/spite/1.svg",
+      "2": "/assets/voidpets/spite/2.svg",
+      "3": "/assets/voidpets/spite/3.svg",
+      "4": "/assets/voidpets/spite/4.svg",
+      "5": "/assets/voidpets/spite/5.svg"
+    }
+  },
+  {
+    "id": "06",
+    "name": "Lonely",
+    "class": "Unknown",
+    "element": "Water",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/lonely/1.svg",
+      "2": "/assets/voidpets/lonely/2.svg",
+      "3": "/assets/voidpets/lonely/3.svg",
+      "4": "/assets/voidpets/lonely/4.svg",
+      "5": "/assets/voidpets/lonely/5.svg"
+    }
+  },
+  {
+    "id": "07",
+    "name": "Paranoia",
+    "class": "Fighter",
+    "element": "Metal",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/paranoia/1.svg",
+      "2": "/assets/voidpets/paranoia/2.svg",
+      "3": "/assets/voidpets/paranoia/3.svg",
+      "4": "/assets/voidpets/paranoia/4.svg",
+      "5": "/assets/voidpets/paranoia/5.svg"
+    }
+  },
+  {
+    "id": "08",
+    "name": "Sonder",
+    "class": "Unknown",
+    "element": "Water",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/sonder/1.svg",
+      "2": "/assets/voidpets/sonder/2.svg",
+      "3": "/assets/voidpets/sonder/3.svg",
+      "4": "/assets/voidpets/sonder/4.svg",
+      "5": "/assets/voidpets/sonder/5.svg"
+    }
+  },
+  {
+    "id": "09",
+    "name": "Sanctimony",
+    "class": "Unknown",
+    "element": "Earth",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/sanctimony/1.svg",
+      "2": "/assets/voidpets/sanctimony/2.svg",
+      "3": "/assets/voidpets/sanctimony/3.svg",
+      "4": "/assets/voidpets/sanctimony/4.svg",
+      "5": "/assets/voidpets/sanctimony/5.svg"
+    }
+  },
+  {
+    "id": "10",
+    "name": "Abandonment",
+    "class": "Unknown",
+    "element": "Water",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/abandonment/1.svg",
+      "2": "/assets/voidpets/abandonment/2.svg",
+      "3": "/assets/voidpets/abandonment/3.svg",
+      "4": "/assets/voidpets/abandonment/4.svg",
+      "5": "/assets/voidpets/abandonment/5.svg"
+    }
+  },
+  {
+    "id": "11",
+    "name": "Jealous",
+    "class": "Unknown",
+    "element": "Wood",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/jealous/1.svg",
+      "2": "/assets/voidpets/jealous/2.svg",
+      "3": "/assets/voidpets/jealous/3.svg",
+      "4": "/assets/voidpets/jealous/4.svg",
+      "5": "/assets/voidpets/jealous/5.svg"
+    }
+  },
+  {
+    "id": "12",
+    "name": "Gluttony",
+    "class": "Unknown",
+    "element": "Earth",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/gluttony/1.svg",
+      "2": "/assets/voidpets/gluttony/2.svg",
+      "3": "/assets/voidpets/gluttony/3.svg",
+      "4": "/assets/voidpets/gluttony/4.svg",
+      "5": "/assets/voidpets/gluttony/5.svg"
+    }
+  },
+  {
+    "id": "13",
+    "name": "Pride",
+    "class": "Unknown",
+    "element": "Metal",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/13/level-1.svg",
+      "2": "/assets/voidpets/13/level-2.svg",
+      "3": "/assets/voidpets/13/level-3.svg",
+      "4": "/assets/voidpets/13/level-4.svg",
+      "5": "/assets/voidpets/13/level-5.svg"
+    }
+  },
+  {
+    "id": "14",
+    "name": "Lust",
+    "class": "Unknown",
+    "element": "Metal",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/14/level-1.svg",
+      "2": "/assets/voidpets/14/level-2.svg",
+      "3": "/assets/voidpets/14/level-3.svg",
+      "4": "/assets/voidpets/14/level-4.svg",
+      "5": "/assets/voidpets/14/level-5.svg"
+    }
+  },
+  {
+    "id": "15",
+    "name": "Sloth",
+    "class": "Unknown",
+    "element": "Earth",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/15/level-1.svg",
+      "2": "/assets/voidpets/15/level-2.svg",
+      "3": "/assets/voidpets/15/level-3.svg",
+      "4": "/assets/voidpets/15/level-4.svg",
+      "5": "/assets/voidpets/15/level-5.svg"
+    }
+  },
+  {
+    "id": "16",
+    "name": "Wrath",
+    "class": "Unknown",
+    "element": "Fire",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/16/level-1.svg",
+      "2": "/assets/voidpets/16/level-2.svg",
+      "3": "/assets/voidpets/16/level-3.svg",
+      "4": "/assets/voidpets/16/level-4.svg",
+      "5": "/assets/voidpets/16/level-5.svg"
+    }
+  },
+  {
+    "id": "17",
+    "name": "Greed",
+    "class": "Unknown",
+    "element": "Fire",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/17/level-1.svg",
+      "2": "/assets/voidpets/17/level-2.svg",
+      "3": "/assets/voidpets/17/level-3.svg",
+      "4": "/assets/voidpets/17/level-4.svg",
+      "5": "/assets/voidpets/17/level-5.svg"
+    }
+  },
+  {
+    "id": "18",
+    "name": "Estrangement",
+    "class": "Unknown",
+    "element": "Water",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/18/level-1.svg",
+      "2": "/assets/voidpets/18/level-2.svg",
+      "3": "/assets/voidpets/18/level-3.svg",
+      "4": "/assets/voidpets/18/level-4.svg",
+      "5": "/assets/voidpets/18/level-5.svg"
+    }
+  },
+  {
+    "id": "19",
+    "name": "Nostalgia",
+    "class": "Unknown",
+    "element": "Earth",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/19/level-1.svg",
+      "2": "/assets/voidpets/19/level-2.svg",
+      "3": "/assets/voidpets/19/level-3.svg",
+      "4": "/assets/voidpets/19/level-4.svg",
+      "5": "/assets/voidpets/19/level-5.svg"
+    }
+  },
+  {
+    "id": "20",
+    "name": "Judgement",
+    "class": "Unknown",
+    "element": "Metal",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/20/level-1.svg",
+      "2": "/assets/voidpets/20/level-2.svg",
+      "3": "/assets/voidpets/20/level-3.svg",
+      "4": "/assets/voidpets/20/level-4.svg",
+      "5": "/assets/voidpets/20/level-5.svg"
+    }
+  },
+  {
+    "id": "21",
+    "name": "Salty",
+    "class": "Unknown",
+    "element": "Earth",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/21/level-1.svg",
+      "2": "/assets/voidpets/21/level-2.svg",
+      "3": "/assets/voidpets/21/level-3.svg",
+      "4": "/assets/voidpets/21/level-4.svg",
+      "5": "/assets/voidpets/21/level-5.svg"
+    }
+  },
+  {
+    "id": "22",
+    "name": "Sadge",
+    "class": "Unknown",
+    "element": "Water",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/22/level-1.svg",
+      "2": "/assets/voidpets/22/level-2.svg",
+      "3": "/assets/voidpets/22/level-3.svg",
+      "4": "/assets/voidpets/22/level-4.svg",
+      "5": "/assets/voidpets/22/level-5.svg"
+    }
+  },
+  {
+    "id": "23",
+    "name": "Down Bad",
+    "class": "Unknown",
+    "element": "Wood",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/23/level-1.svg",
+      "2": "/assets/voidpets/23/level-2.svg",
+      "3": "/assets/voidpets/23/level-3.svg",
+      "4": "/assets/voidpets/23/level-4.svg",
+      "5": "/assets/voidpets/23/level-5.svg"
+    }
+  },
+  {
+    "id": "24",
+    "name": "Cringe",
+    "class": "Unknown",
+    "element": "Wood",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/24/level-1.svg",
+      "2": "/assets/voidpets/24/level-2.svg",
+      "3": "/assets/voidpets/24/level-3.svg",
+      "4": "/assets/voidpets/24/level-4.svg",
+      "5": "/assets/voidpets/24/level-5.svg"
+    }
+  },
+  {
+    "id": "25",
+    "name": "Grumpy",
+    "class": "Unknown",
+    "element": "Earth",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/25/level-1.svg",
+      "2": "/assets/voidpets/25/level-2.svg",
+      "3": "/assets/voidpets/25/level-3.svg",
+      "4": "/assets/voidpets/25/level-4.svg",
+      "5": "/assets/voidpets/25/level-5.svg"
+    }
+  },
+  {
+    "id": "26",
+    "name": "Curious",
+    "class": "Unknown",
+    "element": "Wood",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/26/level-1.svg",
+      "2": "/assets/voidpets/26/level-2.svg",
+      "3": "/assets/voidpets/26/level-3.svg",
+      "4": "/assets/voidpets/26/level-4.svg",
+      "5": "/assets/voidpets/26/level-5.svg"
+    }
+  },
+  {
+    "id": "27",
+    "name": "Glee",
+    "class": "Unknown",
+    "element": "Earth",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/27/level-1.svg",
+      "2": "/assets/voidpets/27/level-2.svg",
+      "3": "/assets/voidpets/27/level-3.svg",
+      "4": "/assets/voidpets/27/level-4.svg",
+      "5": "/assets/voidpets/27/level-5.svg"
+    }
+  },
+  {
+    "id": "28",
+    "name": "Rejection",
+    "class": "Unknown",
+    "element": "Water",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/28/level-1.svg",
+      "2": "/assets/voidpets/28/level-2.svg",
+      "3": "/assets/voidpets/28/level-3.svg",
+      "4": "/assets/voidpets/28/level-4.svg",
+      "5": "/assets/voidpets/28/level-5.svg"
+    }
+  },
+  {
+    "id": "29",
+    "name": "Desperate",
+    "class": "Unknown",
+    "element": "Metal",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/29/level-1.svg",
+      "2": "/assets/voidpets/29/level-2.svg",
+      "3": "/assets/voidpets/29/level-3.svg",
+      "4": "/assets/voidpets/29/level-4.svg",
+      "5": "/assets/voidpets/29/level-5.svg"
+    }
+  },
+  {
+    "id": "30",
+    "name": "Defiance",
+    "class": "Unknown",
+    "element": "Fire",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/30/level-1.svg",
+      "2": "/assets/voidpets/30/level-2.svg",
+      "3": "/assets/voidpets/30/level-3.svg",
+      "4": "/assets/voidpets/30/level-4.svg",
+      "5": "/assets/voidpets/30/level-5.svg"
+    }
+  },
+  {
+    "id": "31",
+    "name": "Merry",
+    "class": "Unknown",
+    "element": "Wood",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/31/level-1.svg",
+      "2": "/assets/voidpets/31/level-2.svg",
+      "3": "/assets/voidpets/31/level-3.svg",
+      "4": "/assets/voidpets/31/level-4.svg",
+      "5": "/assets/voidpets/31/level-5.svg"
+    }
+  },
+  {
+    "id": "32",
+    "name": "Apathy",
+    "class": "Unknown",
+    "element": "Earth",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/32/level-1.svg",
+      "2": "/assets/voidpets/32/level-2.svg",
+      "3": "/assets/voidpets/32/level-3.svg",
+      "4": "/assets/voidpets/32/level-4.svg",
+      "5": "/assets/voidpets/32/level-5.svg"
+    }
+  },
+  {
+    "id": "33",
+    "name": "Disdain",
+    "class": "Unknown",
+    "element": "Metal",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/33/level-1.svg",
+      "2": "/assets/voidpets/33/level-2.svg",
+      "3": "/assets/voidpets/33/level-3.svg",
+      "4": "/assets/voidpets/33/level-4.svg",
+      "5": "/assets/voidpets/33/level-5.svg"
+    }
+  },
+  {
+    "id": "34",
+    "name": "Panic",
+    "class": "Unknown",
+    "element": "Fire",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/34/level-1.svg",
+      "2": "/assets/voidpets/34/level-2.svg",
+      "3": "/assets/voidpets/34/level-3.svg",
+      "4": "/assets/voidpets/34/level-4.svg",
+      "5": "/assets/voidpets/34/level-5.svg"
+    }
+  },
+  {
+    "id": "35",
+    "name": "Resistance",
+    "class": "Unknown",
+    "element": "Earth",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/35/level-1.svg",
+      "2": "/assets/voidpets/35/level-2.svg",
+      "3": "/assets/voidpets/35/level-3.svg",
+      "4": "/assets/voidpets/35/level-4.svg",
+      "5": "/assets/voidpets/35/level-5.svg"
+    }
+  },
+  {
+    "id": "36",
+    "name": "Determination",
+    "class": "Unknown",
+    "element": "Fire",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/36/level-1.svg",
+      "2": "/assets/voidpets/36/level-2.svg",
+      "3": "/assets/voidpets/36/level-3.svg",
+      "4": "/assets/voidpets/36/level-4.svg",
+      "5": "/assets/voidpets/36/level-5.svg"
+    }
+  },
+  {
+    "id": "37",
+    "name": "Wonder",
+    "class": "Unknown",
+    "element": "Wood",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/37/level-1.svg",
+      "2": "/assets/voidpets/37/level-2.svg",
+      "3": "/assets/voidpets/37/level-3.svg",
+      "4": "/assets/voidpets/37/level-4.svg",
+      "5": "/assets/voidpets/37/level-5.svg"
+    }
+  },
+  {
+    "id": "38",
+    "name": "Mischief",
+    "class": "Unknown",
+    "element": "Wood",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/38/level-1.svg",
+      "2": "/assets/voidpets/38/level-2.svg",
+      "3": "/assets/voidpets/38/level-3.svg",
+      "4": "/assets/voidpets/38/level-4.svg",
+      "5": "/assets/voidpets/38/level-5.svg"
+    }
+  },
+  {
+    "id": "39",
+    "name": "Persistence",
+    "class": "Unknown",
+    "element": "Water",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/39/level-1.svg",
+      "2": "/assets/voidpets/39/level-2.svg",
+      "3": "/assets/voidpets/39/level-3.svg",
+      "4": "/assets/voidpets/39/level-4.svg",
+      "5": "/assets/voidpets/39/level-5.svg"
+    }
+  },
+  {
+    "id": "40",
+    "name": "Ambition",
+    "class": "Unknown",
+    "element": "Water",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/40/level-1.svg",
+      "2": "/assets/voidpets/40/level-2.svg",
+      "3": "/assets/voidpets/40/level-3.svg",
+      "4": "/assets/voidpets/40/level-4.svg",
+      "5": "/assets/voidpets/40/level-5.svg"
+    }
+  },
+  {
+    "id": "41",
+    "name": "Conviction",
+    "class": "Unknown",
+    "element": "Metal",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/41/level-1.svg",
+      "2": "/assets/voidpets/41/level-2.svg",
+      "3": "/assets/voidpets/41/level-3.svg",
+      "4": "/assets/voidpets/41/level-4.svg",
+      "5": "/assets/voidpets/41/level-5.svg"
+    }
+  },
+  {
+    "id": "42",
+    "name": "Joy",
+    "class": "Unknown",
+    "element": "Fire",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/42/level-1.svg",
+      "2": "/assets/voidpets/42/level-2.svg",
+      "3": "/assets/voidpets/42/level-3.svg",
+      "4": "/assets/voidpets/42/level-4.svg",
+      "5": "/assets/voidpets/42/level-5.svg"
+    }
+  },
+  {
+    "id": "43",
+    "name": "Wistful",
+    "class": "Unknown",
+    "element": "Wood",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/43/level-1.svg",
+      "2": "/assets/voidpets/43/level-2.svg",
+      "3": "/assets/voidpets/43/level-3.svg",
+      "4": "/assets/voidpets/43/level-4.svg",
+      "5": "/assets/voidpets/43/level-5.svg"
+    }
+  },
+  {
+    "id": "44",
+    "name": "Scorn",
+    "class": "Unknown",
+    "element": "Metal",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/44/level-1.svg",
+      "2": "/assets/voidpets/44/level-2.svg",
+      "3": "/assets/voidpets/44/level-3.svg",
+      "4": "/assets/voidpets/44/level-4.svg",
+      "5": "/assets/voidpets/44/level-5.svg"
+    }
+  },
+  {
+    "id": "45",
+    "name": "Diligence",
+    "class": "Unknown",
+    "element": "Earth",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/45/level-1.svg",
+      "2": "/assets/voidpets/45/level-2.svg",
+      "3": "/assets/voidpets/45/level-3.svg",
+      "4": "/assets/voidpets/45/level-4.svg",
+      "5": "/assets/voidpets/45/level-5.svg"
+    }
+  },
+  {
+    "id": "46",
+    "name": "Patience",
+    "class": "Unknown",
+    "element": "Wood",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/46/level-1.svg",
+      "2": "/assets/voidpets/46/level-2.svg",
+      "3": "/assets/voidpets/46/level-3.svg",
+      "4": "/assets/voidpets/46/level-4.svg",
+      "5": "/assets/voidpets/46/level-5.svg"
+    }
+  },
+  {
+    "id": "47",
+    "name": "Clarity",
+    "class": "Unknown",
+    "element": "Fire",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/47/level-1.svg",
+      "2": "/assets/voidpets/47/level-2.svg",
+      "3": "/assets/voidpets/47/level-3.svg",
+      "4": "/assets/voidpets/47/level-4.svg",
+      "5": "/assets/voidpets/47/level-5.svg"
+    }
+  },
+  {
+    "id": "48",
+    "name": "Petulance",
+    "class": "Unknown",
+    "element": "Wood",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/48/level-1.svg",
+      "2": "/assets/voidpets/48/level-2.svg",
+      "3": "/assets/voidpets/48/level-3.svg",
+      "4": "/assets/voidpets/48/level-4.svg",
+      "5": "/assets/voidpets/48/level-5.svg"
+    }
+  },
+  {
+    "id": "49",
+    "name": "Devotion",
+    "class": "Unknown",
+    "element": "Fire",
+    "rarity": "Unknown",
+    "description": "Describe this voidpet...",
+    "levels": {
+      "1": "/assets/voidpets/49/level-1.svg",
+      "2": "/assets/voidpets/49/level-2.svg",
+      "3": "/assets/voidpets/49/level-3.svg",
+      "4": "/assets/voidpets/49/level-4.svg",
+      "5": "/assets/voidpets/49/level-5.svg"
+    }
+  }
+]

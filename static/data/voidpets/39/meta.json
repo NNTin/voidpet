@@ -6,10 +6,10 @@
   "rarity": "Unknown",
   "description": "Describe this voidpet...",
   "levels": {
-    "1": "/assets/voidpets/39/level-1.svg",
-    "2": "/assets/voidpets/39/level-2.svg",
-    "3": "/assets/voidpets/39/level-3.svg",
-    "4": "/assets/voidpets/39/level-4.svg",
-    "5": "/assets/voidpets/39/level-5.svg"
+    "1": "/assets/voidpets/persistence/1.svg",
+    "2": "/assets/voidpets/persistence/2.svg",
+    "3": "/assets/voidpets/persistence/3.svg",
+    "4": "/assets/voidpets/persistence/4.svg",
+    "5": "/assets/voidpets/persistence/5.svg"
   }
 }
